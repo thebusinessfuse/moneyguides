@@ -40,56 +40,52 @@ background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);">
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <h3 style="font-weight: bold;"><span style="color: aquamarine;">Personal Loan
-                            </span></h3>
-                        <p style="color: white;">If you want to live alone with your family and not have several
-                            neighbors as in an apartment.</p>
-                        <!-- ======= Contact Section ======= -->
-                        <section id="contact">
-                            <div class="container" data-aos="fade-up">
-                                <div class="container">
-                                    <div class="form">
-                                        <form action="forms/contact.php" method="post" role="form"
-                                            class="php-email-form">
-                                            <div class="row">
-                                                <div class="form-group col-md-6">
+                    <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>ersonal Loan</span></h4>
 
-                                                    <input type="text" name="name" class="form-control rounded" id="name"
-                                                        placeholder="Your Name" required>
-                                                </div>
+                        <div class="container" data-aos="fade-up">
+                            <div class="container">
+                                <div class="form">
+                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
 
-                                                <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                    <input type="email" class="form-control rounded" name="email" id="email"
-                                                        placeholder="Your Email" required>
-                                                </div>
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
                                             </div>
-
-                                          
-
-                                            <div class="form-group mt-3">
-                                                <input type="tel" class="form-control rounded" name="message"
-                                                    placeholder="Phone Number" required></input>
+                                            <div class="form-group col-md-6 mt-3 mt-md-0">
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
-                                            <div class="form-group mt-3">
-                                                <textarea class="form-control rounded" rows="2" id="comment"
-                                                    placeholder="Massage"></textarea>
-                                            </div>
-                                            <div class="my-3">
-                                                <div class="loading">Loading</div>
-                                                <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                                            </div>
+                                        </div>
 
-                                            <div class="text-center"><button type="submit">Send Message</button></div>
-                                        </form>
-                                    </div>
+                                        <div class="form-group mt-3">
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
+                                        </div>
 
+                                        <div class="my-3">
+                                            <div class="loading">Loading</div>
+                                            <div class="error-message"></div>
+                                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        </div>
+
+                                        <div class="text-center"><button type="submit">Send Message</button></div>
+                                    </form>
                                 </div>
-                        </section>
-                        <!-- End Contact Section -->
 
-                    </div>
+                            </div>
+                    </section>
+                    <!-- End Contact Section -->
+
+                </div>
                 </div>
 
             </div>
@@ -99,7 +95,7 @@ background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);">
 
     <!--content section-->
     <div class="container">
-        <h3>Personal Loan</h3>
+        <h4>Personal Loan</h4>
         <p>You may face a financial crisis anytime. You can borrow from family and friends, but it is not wise to
             challenge the cordiality of relationships just for money. Why not borrow from banks instead?
         </p>

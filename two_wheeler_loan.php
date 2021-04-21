@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                                <h3 style="font-weight: bold;"><span style="color: aquamarine;">1 Crore </span>life cover at<span style="color: aquamarine;"> ₹490/month*</span></h3>
+                                <h4 style="font-weight: bold;"><span style="color: aquamarine;">1 Crore </span>life cover at<span style="color: aquamarine;"> ₹490/month*</span></h4>
                                 <p>Get insured from the comfort of your home</p>
                                 <!-- ======= Contact Section ======= -->
                                 <section id="contact">
@@ -89,7 +89,7 @@
 
         <!--content section-->
         <div class="container">
-            <h3>Two Wheeler Loans</h3>
+            <h4>Two Wheeler Loans</h4>
             <p>You can avail a two wheeler loan secured against your two wheeler (the two wheeler is the collateral). You can also avail a two wheeler loan without collateral. Your bank would charge you a higher rate of interest if your two wheeler loan
                 is unsecured.
             </p>

@@ -43,14 +43,11 @@ background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <h3 style="font-weight: bold;"><span style="color: aquamarine;">Loan against security
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Loan against security</span></h4>
 
-                        </span></h3>
-                    <p style="color: white;">If you want to live alone with your family and not have several neighbors
-                        as in an apartment.</p>
-                    <!-- ======= Contact Section ======= -->
-                    <section id="contact">
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -58,23 +55,25 @@ background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="form-control rounded" id="name"
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
                                                     placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control rounded" name="email" id="email"
-                                                    placeholder="Your Email" required>
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
                                         </div>
-                                     
+
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control rounded" name="message"
-                                                placeholder="Phone Number" required></input>
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded" rows="2" id="comment"
-                                                placeholder="Massage"></textarea>
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
                                         </div>
+
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -100,7 +99,7 @@ background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
 
     <!--content section-->
     <div class="container">
-        <h3>Loan against security</h3>
+        <h4>Loan against security</h4>
         <p>The most common loan against security is the loan against shares. In a loan against shares you borrow money
             from the bank and pledge your shares as a security against the money obtained. This type of a loan is called
             a secured loan.

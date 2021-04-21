@@ -24,7 +24,7 @@
 <main id="main">
 
 
-    <div class="container" id="card" style="padding: 25px; background-color: #63d471;
+    <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);
             ">
         <!-- ======= How It Works Section ======= -->
@@ -34,16 +34,16 @@
 
                 <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/homins.png" alt="" width="100%">
+                        <img src="img/homins.png" alt="" width="90%">
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                            Home Insurance</span></h3>
-                    <p style="color: white;">Get insured from the comfort of your home</p>
-                    <!-- ======= Contact Section ======= -->
-                    <section id="contact">
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Home
+                                Insurance Plan</span></h4>
+
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -51,23 +51,25 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="form-control" id="name"
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
                                                     placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control" name="email" id="email"
-                                                    placeholder="Your Email" required>
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="message"
-                                                placeholder="Phone Number" required></input>
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded border-dark" rows="2" id="comment"
-                                                placeholder="Massage"></textarea>
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
                                         </div>
+
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -82,6 +84,8 @@
                     </section>
                     <!-- End Contact Section -->
 
+                    <!-- End Contact Section -->
+
                 </div>
             </div>
 
@@ -94,7 +98,7 @@
     <!--content section-->
 
     <div class="container">
-        <h3>Home Insurance</h3>
+        <h4><b>Home Insurance</b></h4>
         <p>The insurer bears the risk of damage and destruction to the structure of your house and compensates you for
             this loss. You have to pay a premium for the benefit. Based on the premium you pay the structure of your
             house is insured for an amount
@@ -107,14 +111,14 @@
 
         <hr>
 
-        <h2>Why buy Home Insurance?</h2>
+        <h4><b>Why buy Home Insurance?</b></h4>
         <!--=======================Card content==========================-->
         <div class="row">
             <div class="col-sm-3">
                 <div class="card">
 
-                    <div class="container">
-                        <h4><b>Protects your structure</b></h4>
+                    <div class="container"><br>
+                        <h5><b>Protects your structure</b></h5>
                         <p>Helps pay for the replacement of the structure of your home, if damaged in a natural or
                             manmade calamity.
                         </p>
@@ -124,8 +128,8 @@
             <div class="col-sm-3">
                 <div class="card">
 
-                    <div class="container">
-                        <h4><b>Protects your contents</b></h4>
+                    <div class="container"><br>
+                        <h5><b>Protects your contents</b></h5>
                         <p>A householder’s package policy, compensates you against damage and loss of the contents of
                             your home.
                         </p>
@@ -135,8 +139,8 @@
             <div class="col-sm-3">
                 <div class="card">
 
-                    <div class="container">
-                        <h4><b>Special benefits</b></h4>
+                    <div class="container"><br>
+                        <h5><b>Special benefits</b></h5>
                         <p>You can avail special cover for jewelry and precious items in your home. Alternate
                             accommodation if your home is under repair.
                         </p>
@@ -146,8 +150,8 @@
             <div class="col-sm-3">
                 <div class="card">
 
-                    <div class="container">
-                        <h4><b>Minimum It is very cheap</b></h4>
+                    <div class="container"><br>
+                        <h5><b>Minimum It is very cheap</b></h5>
                         <p>It can be very costly to repair the damage to the structure of your home. The premiums on
                             home insurance are a pittance compared to this loss.
                         </p>
@@ -158,9 +162,9 @@
 
 
 
-        <h2 class="text-center">Key factors to consider for Home Insurance</h2>
+        <h3 class="text-center"><b>Key factors to consider for Home Insurance</b></h3>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>Take a basic fire and allied perils insurance policy</h3>
+            <h5><b>Take a basic fire and allied perils insurance policy</b></h5>
             <ul>
                 <li>Lightening</li>
                 <li>Hit by an aircraft</li>
@@ -173,7 +177,7 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>Householder’s package policy</h3>
+            <h5><b>Householder’s package policy</b></h5>
 
             <ul>
                 <li>A much better home insurance policy for you is s a householder’s package policy. You have to pay a
@@ -193,7 +197,7 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>How does a home insurance policy pay you for damages?</h3>
+            <h5><B>How does a home insurance policy pay you for damages?</B></h5>
             <ul>
                 <li>You live in a posh area in a metro city. You have availed a comprehensive home insurance policy
                     popularly
@@ -217,7 +221,7 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>How does the insurer calculate the value of your house?</h3>
+            <h5><B>How does the insurer calculate the value of your house?</B></h5>
             <ul>
                 <li>The insurer calculates the cost of the damaged structure of your home on the market value basis. The
                     market
@@ -236,7 +240,7 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>How is your claim settled in home content insurance?</h3>
+            <h5><B>How is your claim settled in home content insurance?</B></h5>
             <ul>
                 <li>Costly electronic gadgets of your house or furniture are destroyed in a fire/short circuit. Are you
                     given a
@@ -249,7 +253,7 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>Types</h3>
+            <h5><B>Types</B></h5>
             <h5>Standard Fire and Allied Perils Insurance:</h5>
             <ul>
                 <li>This insurance covers most kind of damage caused to the house due to a fire, riot, floods or even a
@@ -258,7 +262,7 @@
 
             </ul>
 
-            <h5>Burglary and House breaking insurance policy:</h5>
+            <h5><B>Burglary and House breaking insurance policy:</B></h5>
             <ul>
                 <li>Covers loss of assets due to a burglary.
 

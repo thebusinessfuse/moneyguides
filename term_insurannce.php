@@ -37,54 +37,54 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                                Term Insurance</span></h3>
-                        <p style="color: white;">Get insured from the comfort of your home</p>
-                        <!-- ======= Contact Section ======= -->
-                        <section id="contact">
-                            <div class="container" data-aos="fade-up">
-                                <div class="container">
-                                    <div class="form">
-                                        <form action="forms/contact.php" method="post" role="form"
-                                            class="php-email-form">
-                                            <div class="row">
-                                                <div class="form-group col-md-6">
+                    <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Terms Insurance</span></h4>
 
-                                                    <input type="text" name="name"
-                                                        class="rounded border-dark form-control" id="name"
-                                                        placeholder="Your Name" required>
-                                                </div>
-                                                <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                    <input type="email" class="form-control rounded border-dark"
-                                                        name="email" id="email" placeholder="Your Email" required>
-                                                </div>
+                        <div class="container" data-aos="fade-up">
+                            <div class="container">
+                                <div class="form">
+                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
                                             </div>
-
-                                            <div class="form-group mt-3">
-                                                <input type="tel" class="form-control rounded border-dark"
-                                                    name="message" placeholder="Phone Number" required></input>
+                                            <div class="form-group col-md-6 mt-3 mt-md-0">
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
-                                            <div class="form-group mt-3">
-                                                <textarea class="form-control rounded border-dark" rows="2" id="comment"
-                                                    placeholder="Massage"></textarea>
-                                            </div>
+                                        </div>
 
-                                            <div class="my-3">
-                                                <div class="loading">Loading</div>
-                                                <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                                            </div>
+                                        <div class="form-group mt-3">
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
+                                        </div>
 
-                                            <div class="text-center"><button type="submit">Send Message</button></div>
-                                        </form>
-                                    </div>
+                                        <div class="my-3">
+                                            <div class="loading">Loading</div>
+                                            <div class="error-message"></div>
+                                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        </div>
 
+                                        <div class="text-center"><button type="submit">Send Message</button></div>
+                                    </form>
                                 </div>
-                        </section>
-                        <!-- End Contact Section -->
 
-                    </div>
+                            </div>
+                    </section>
+                    <!-- End Contact Section -->
+
+                    <!-- End Contact Section -->
+
+                </div>
                 </div>
 
             </div>
@@ -96,7 +96,7 @@
     <!--content section-->
 
     <div class="container">
-        <h3>Tern Insurance is the simplest and most affordable from of life insurance.</h3>
+        <h4><b>Tern Insurance is the simplest and most affordable from of life insurance.</b></h4>
         <p>Term plans provide peace of mind to you by ensuring that your family is financially secure and independent,
             in your absence. If you are the person insured, you pay a specific premium amount at fixed intervals during
             the policy term. In the
@@ -127,7 +127,7 @@
             </li>
         </ul>
         <hr>
-        <h5>5 reasons to buy a Term Insurance Plan</h5>
+        <h5><b>5 reasons to buy a Term Insurance Plan</b></h5>
         <p>High Life Insurance Account</p>
         <ul>
             <li>
@@ -232,9 +232,9 @@
             </div><br>
         </div>
         <br>
-        <h4 class="text-center">Key factors to consider for Accidental Insurance</h4>
+        <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
         <div style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Types of Accidental Insurance Plans</h5>
+            <h5><b>Types of Accidental Insurance Plans</b></h5>
             <p>Individual Accidental Policies:</p>
 
             <ul>
@@ -256,7 +256,7 @@
         <br>
 
         <div style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>How to make a claim on a Personal Accidental Insurance Plan?</h5>
+            <h5><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h5>
             <p>Inform the insurer about the accident:</p>
 
             <ul>

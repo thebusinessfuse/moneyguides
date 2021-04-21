@@ -7,7 +7,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s;
     width: 100%;
-    height: 250px;
+    height: 200px;
     text-align: center;
     border-radius: 5px;
 }
@@ -23,27 +23,29 @@
 <?php include 'header.php'; ?>
 <main id="main">
 
-    <!-- <section class="inner-page"> -->
-    <div class="container" id="card" style="padding: 25px;background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
+    <!-- End Breadcrumbs Section -->
+
+    <div class="container-fluid" id="card" style="padding: 25px; background-color: #000000;
+                         background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
             ">
         <!-- ======= How It Works Section ======= -->
 
-        <div class="container-fluid" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
                 <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/term-life-insurance.png" alt="" width="100%">
+                        <img src="img/busines.png" alt="" width="80%">
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                            Life Insurance</span></h3>
-                    <p style="color: white;">Get insured from the comfort of your home</p>
+                <div class="col-md-5 col-sm-6 text-center mb-2" data-aos="fade-up" data-aos-delay="200">
+
                     <!-- ======= Contact Section ======= -->
-                    <section id="contact">
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Health Insurance Plan</span></h4>
+                      
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -51,24 +53,24 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="Your Name" required>
+                                                <input type="text" name="name" class="rounded border-secondary form-control"
+                                                    id="name" placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control" name="email" id="email"
-                                                    placeholder="Your Email" required>
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
-                                        </div>
-                                        
-                                        <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="message"
-                                                placeholder="Phone Number" required></input>
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded" rows="2" id="comment"
+                                            <input type="tel" class="form-control rounded border-secondary" name="message"
+                                                placeholder="Phone Number" required></input>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <textarea class="form-control rounded border-secondary" rows="2" id="comment"
                                                 placeholder="Massage"></textarea>
                                         </div>
+
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -96,7 +98,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
     <!--content section-->
 
     <div class="container">
-        <h3>Life Insurance</h3>
+        <h4><b>Life Insurance</b></h4>
         <p>Life Insurance is an agreement or a long-term contract between the life insurer and the policyholder. It
             guarantees compensation on loss of life within the term of the plan, in return for a specified premium. The
             beneficiary/nominee whose
@@ -107,7 +109,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             financially. You enjoy peace of mind knowing your family is secure.
         </p>
         <hr>
-        <h3>Why Life Insurance?</h3>
+        <h5><b>Why Life Insurance?</b></h5>
         <p>Your family enjoys financial security in your absence. Your wife gets the money to meet daily expenses and
             pay back loans like home loan, car loan and any other liability. Your children enjoy a quality education and
             there’s money for their
@@ -130,19 +132,19 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             </li>
         </ul>
         <hr>
-        <h3>Terms of Life Insurance</h3>
-        <h5>Insured:</h5>
+        <h4><b>Terms of Life Insurance</b></h4>
+        <h5><b>Insured:</b></h5>
         <p>This is the person whose life in being insured under the Life Insurance Plan. If the person availing the plan
             is different from the person being insured, the buyer is the proposer of the plan. The proposer must have an
             insurable interest in
             the person being insured under the plan.
         </p>
-        <h5>Term of the contract:</h5>
+        <h5><b>Term of the contract:</b></h5>
         <p>This is the time period of the Life Insurance plan or the period when Life Insurance is available. The life
             insurer specifies an upper age limit (maximum age), when the term of the policy ends.
         </p>
         <hr>
-        <h5>Terms of Life Insurance</h5>
+        <h5><b>Terms of Life Insurance</b></h5>
         <p>The payment of sum assured takes place on death of the policyholder or expiry of the policy term. The mode of
             payment of the sum assured is either through a lump sum or in periodic installments. This is specified under
             the contract. Premium
@@ -153,14 +155,14 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             frame specified by the Life Insurer, on payment of pending premiums + penalties.
         </p>
         <hr>
-        <h5>Bonus in Life Insurance</h5>
+        <h5><b>Bonus in Life Insurance</b></h5>
         <p>Life insurers periodically announce a bonus, as a percentage of the sum assured. This amount is added to the
             sum assured and paid to the policyholder on maturity of the plan. This amount is paid on maturity or in case
             of death within the term
             of the plan, the sum assured + accrued bonus is paid by the insurer.
         </p>
 
-        <h5>Types of bonuses under Life Insurance</h5>
+        <h5><b>Types of bonuses under Life Insurance</b></h5>
         <p>Guaranteed Bonus:</p>
         <p>Guaranteed bonus is paid as a percentage of the sum assured. It’s paid for the first few years of the Life
             Insurance Plan, say 5 years. The guaranteed bonus is received at the end of the term of the plan.
@@ -172,7 +174,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         </p>
         <hr>
 
-        <h5>What is surrender of a Life Insurance Plan?</h5>
+        <h5><b>What is surrender of a Life Insurance Plan?</b></h5>
         <p>If you surrender the Life Insurance Plan before the full term of the plan is completed, you get a portion of
             the money paid in premiums, after certain charges are deducted. If you decide to terminate the Life
             Insurance Plan before maturity,
@@ -183,8 +185,8 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             if you terminate the plan after 5 years as per IRDA rules and guidelines.
         </p>
         <hr>
-        <h4>Types of Surrender Value</h4>
-        <h5>Guaranteed Surrender Value</h5>
+        <h5><b>Types of Surrender Value</b></h5>
+        <h5><b>Guaranteed Surrender Value</b></h5>
         <p>You get guaranteed surrender value only after paying at least 2-3 annual premiums. If the premium paying term
             is less than 10 years, your Life Insurance Plan acquires a surrender value after paying two annual premiums.
             If the premium paying
@@ -206,7 +208,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         </ul>
         <hr>
 
-        <h5>Special Surrender Value</h5>
+        <h5><b>Special Surrender Value</b></h5>
         <p>This surrender value depends on sum assured, term of the plan, premiums paid on the plan and bonuses. You can
             calculate special surrender value by<br> Special surrender value = Surrender value of the Life Insurance
             Plan = [{(Number of premiums
@@ -214,8 +216,8 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             the plan] * Surrender Value factor. The Surrender value factor is basically a percentage of Paid-up value +
             bonus.</p>
         <hr>
-        <h5>Types of Life Insurance Plans</h5>
-        <h6>Term Life Insurance</h6>
+        <h5><b>Types of Life Insurance Plans</b></h5>
+        <h6><b>Term Life Insurance</b></h6>
         <p>Term Life Insurance is pure risk cover. You pay a premium for a sum assured (This is specific cover under the
             plan) for a specific tenure. If the policyholder dies within the term of the plan, nominees get the sum
             assured called death benefit.
@@ -243,7 +245,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 
         <hr>
 
-        <h3>Riders on Life Insurance</h3>
+        <h4><b>Riders on Life Insurance</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
             <h5>Accidental death benefit rider</h5>
             <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
@@ -254,7 +256,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         </div>
         <hr>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5>Critical Illness rider</h5>
+            <h5><b>Critical Illness rider</b></h5>
             <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
                 the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
                 assured is calculated on the
@@ -265,7 +267,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
             <h5>
-                Accidental disability benefit rider
+               <b> Accidental disability benefit rider</b>
             </h5>
             <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
                 the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
@@ -274,7 +276,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             </p>
         </div>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5>Waiver of premium rider</h5>
+            <h5><b>Waiver of premium rider</b></h5>
             <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
                 the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
                 assured is calculated on the
@@ -283,7 +285,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         </div>
 
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5>Accidental death benefit rider</h5>
+            <h5><b>Accidental death benefit rider</b></h5>
             <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
                 the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
                 assured is calculated on the

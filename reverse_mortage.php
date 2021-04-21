@@ -50,9 +50,9 @@
 
                     <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h3 style="font-weight: bold;"><span style="color: black;">Reverse Mortgage
+                        <h4 style="font-weight: bold;"><span style="color: black;">Reverse Mortgage
 
-                            </span></h3>
+                            </span></h4>
                         
                         <div class="container" data-aos="fade-up">
                             <div class="container">
@@ -104,7 +104,7 @@
 
     <!--content section-->
     <div class="container">
-        <h3>Reverse Mortgage</h3>
+        <h4>Reverse Mortgage</h4>
         <p>A reverse mortgage is similar to a home loan but works in the exactly opposite direction. You avail a home
             loan from a bank to buy a house. You repay the home loan (Principal + Interest), in installments called
             EMI’s (Equated monthly installments),

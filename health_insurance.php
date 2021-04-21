@@ -19,6 +19,7 @@
 .container {
     padding: 2px 16px;
 }
+
 </style>
 <?php include 'header.php'; ?>
 <main id="main">
@@ -27,79 +28,82 @@
     <!-- End Breadcrumbs Section -->
 
     <!-- <section class="inner-page"> -->
-        <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
+    <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);
             ">
-            <!-- ======= How It Works Section ======= -->
+        <!-- ======= How It Works Section ======= -->
 
-            <div class="container" data-aos="fade-up">
-                <div class="row about-cols">
+        <div class="container" data-aos="fade-up">
+            <div class="row about-cols">
 
-                    <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="about-col">
-                            <img src="img/health_insurance.png" alt="" width="100%">
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                                Health Insurance Plan</span></h3>
-                        <p style="color: white;">Get insured from the comfort of your home</p>
-                        <!-- ======= Contact Section ======= -->
-                        <section id="contact">
-                            <div class="container" data-aos="fade-up">
-                                <div class="container">
-                                    <div class="form">
-                                        <form action="forms/contact.php" method="post" role="form"
-                                            class="php-email-form">
-                                            <div class="row">
-                                                <div class="form-group col-md-6">
-
-                                                    <input type="text" name="name" class="rounded form-control" id="name"
-                                                        placeholder="Your Name" required>
-                                                </div>
-                                                <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                    <input type="email" class="form-control rounded" name="email" id="email"
-                                                        placeholder="Your Email" required>
-                                                </div>
-                                            </div>
-                                           
-                                            <div class="form-group mt-3">
-                                                <input type="tel" class="form-control rounded" name="message"
-                                                    placeholder="Phone Number" required></input>
-                                            </div>
-                                            <div class="form-group mt-3">
-                                                <textarea class="form-control rounded" rows="2" id="comment"
-                                                    placeholder="Massage"></textarea>
-                                            </div>
-                                            <div class="my-3">
-                                                <div class="loading">Loading</div>
-                                                <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                                            </div>
-
-                                            <div class="text-center"><button type="submit">Send Message</button></div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                        </section>
-                        <!-- End Contact Section -->
-
+                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-col">
+                        <img src="img/health_insurance.png" alt="" width="90%">
                     </div>
                 </div>
 
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Health
+                                Insurance Plan</span></h4>
+
+                        <div class="container" data-aos="fade-up">
+                            <div class="container">
+                                <div class="form">
+                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
+                                            </div>
+                                            <div class="form-group col-md-6 mt-3 mt-md-0">
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mt-3">
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
+                                        </div>
+
+                                        <div class="my-3">
+                                            <div class="loading">Loading</div>
+                                            <div class="error-message"></div>
+                                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        </div>
+
+                                        <div class="text-center"><button type="submit">Send Message</button></div>
+                                    </form>
+                                </div>
+
+                            </div>
+                    </section>
+                    <!-- End Contact Section -->
+
+                    <!-- End Contact Section -->
+
+                </div>
             </div>
 
-            <!-- card for test -->
         </div>
+
+        <!-- card for test -->
+    </div>
     </section><br>
 
 
     <!--content section-->
 
     <div class="container">
-        <h3>Health Insurance Plan</h3>
+        <h4><b>Health Insurance Plan</b></h4>
         <p>You have to pay a sum of money (Health insurance premium), to avail a health insurance policy. Your medical
             bills will be paid back to the extent you have insured yourself (premium you have paid). The health
             insurance plan pays your hospitalization
@@ -107,7 +111,7 @@
             your family under the family floater plan.
         </p>
 
-        <h3>What are things to know before buying a Health Insurance Plan ?</h3>
+        <h4><b>What are things to know before buying a Health Insurance Plan ?</b></h4>
         <ul>
             <li>Know the waiting period of your health insurance plan
             </li>
@@ -182,15 +186,15 @@
             <!--==================End card plze card here==================-->
         </div><br>
 
-        <h2 class="text-center">Key factors to consider for Accidental Insurance</h2>
+        <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>Types of Accidental Insurance Plans</h3>
-            <h5>Individual Accidental Policies:</h5>
+            <h4><b>Types of Accidental Insurance Plans</b></h4>
+            <h5><b>Individual Accidental Policies:</b></h5>
             <ul>
                 <li>Individual Accidental Policies cover an individual in case of any accident.</li>
             </ul>
 
-            <h5>Group Accident Policies:</h5>
+            <h5><b>Group Accident Policies:</b></h5>
             <ul>
                 <li>A the term itself suggests, a Group Accident Policy is not meant for individuals. It is taken by
                     employers for their employees. Depending on the group size, discount on premium may be offered. It
@@ -204,8 +208,8 @@
 
         <br>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>How to make a claim on a Personal Accidental Insurance Plan?</h3>
-            <h5>Inform the insurer about the accident:</h5>
+            <h4><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h4>
+            <h5><b>Inform the insurer about the accident:</b></h5>
             <ul>
                 <li>The insurer must be informed about the accident as soon as possible. The insurer may also be
                     informed while the insured is on the way to the hospital. In order to show proof that the claim has
@@ -214,7 +218,7 @@
                 </li>
             </ul>
 
-            <h5>Inform the insurer at the time of hospitalization:</h5>
+            <h5><b>Inform the insurer at the time of hospitalization:</b></h5>
             <ul>
                 <li>Fill the claim form.</li>
                 <li>Submit the FIR or police report if required.</li>

@@ -19,6 +19,7 @@
 .container {
     padding: 2px 16px;
 }
+
 </style>
 <?php include 'header.php'; ?>
 <main id="main">
@@ -42,12 +43,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                            Accidental Insurance Plan</span></h3>
-                    <p style="color: white;">Get insured from the comfort of your home</p>
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
                     <!-- ======= Contact Section ======= -->
-                    <section id="contact">
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on Business Insurance</span></h4>
+                      
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -55,24 +55,23 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="Your Name" required>
+                                                <input type="text" name="name" class="rounded border-secondary form-control"
+                                                    id="name" placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control" name="email" id="email"
-                                                    placeholder="Your Email" required>
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="message"
+                                            <input type="tel" class="form-control rounded border-secondary" name="message"
                                                 placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded " rows="2" id="comment"
+                                            <textarea class="form-control rounded border-secondary" rows="2" id="comment"
                                                 placeholder="Massage"></textarea>
                                         </div>
-
 
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
@@ -88,6 +87,8 @@
                     </section>
                     <!-- End Contact Section -->
 
+                    <!-- End Contact Section -->
+
                 </div>
             </div>
 
@@ -101,7 +102,7 @@
     <!--content section-->
 
     <div class="container">
-        <h3>Accidental Insurance Plan</h3>
+        <h4><b>Accidental Insurance Plan</b></h4>
         <p>You have just finished your meeting at office and rushing home for an early dinner is your main priority. You
             are riding your two wheeler looking carefully for those potholes and another vehicle hits you from behind.
             You are rushed to the
@@ -110,7 +111,7 @@
             meet with an accident
             again and this time you are armed with a personal plan.
         </p>
-        <h3>What is Accidental Insurance Plan?</h3>
+        <h4><b>What is Accidental Insurance Plan?</b></h4>
         <p>An accident is an uncertain, unplanned event, it just happens. Soaring medical costs and quality time lost
             due to not being able to work, prove to be very costly. An accidental insurance comes into the picture in
             case of accidents. An accident
@@ -121,7 +122,7 @@
 
         </p>
 
-        <h3>Features of Accidental Insurance Plan</h3>
+        <h4<b>Features of Accidental Insurance Plan</b></h4>
         <ul>
             <li>Accidental insurance must be renewed each year. It can be renewed every year, just like a Term Insurance
                 and Accidental Insurance Plan.
@@ -137,7 +138,7 @@
         </ul>
 
         <hr>
-        <h3>Benefits of Accidental Insurance Plan</h3>
+        <h4><b>Benefits of Accidental Insurance Plan</b></h4>
         <p>Accidental insurance is generally the last policy which people think of. While health insurance covers the
             insured’s unexpected hospitalization costs, term insurance helps take care of family’s financial needs in
             case of the insured’s demise.
@@ -176,7 +177,6 @@
                             <h6><b>Pays a Death Benefit </b></h6>
                             <p>The family members of the policy holder get the death benefit, if death due to an
                                 accident.
-
                             </p>
                         </div>
                     </div>
@@ -188,7 +188,6 @@
                             <h6><b>Pays for hospitalization
                                 </b></h6>
                             <p>Pays for any temporary, partial or permanent injury you may suffer in an accident.
-
                             </p>
                         </div>
                     </div>
@@ -211,8 +210,7 @@
                             <h6><b>Special Benefits
                                 </b></h6>
                             <p>There are special accident plans available to high risk workers, who work in mines, oil
-                                rigs and have high exposure
-
+                                rigs and have high exposure.
                             </p>
                         </div>
                     </div>
@@ -221,28 +219,9 @@
             <!--==================End card plze card here==================-->
         </div><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h2 class="text-center">Key factors to consider for Accidental Insurance</h2>
+        <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h3>Types of Accidental Insurance Plans</h3>
+            <h4>Types of Accidental Insurance Plans</h4>
             <h5>Individual Accidental Policies:</h5>
             <ul>
                 <li>Individual Accidental Policies cover an individual in case of any accident.</li>
@@ -259,7 +238,7 @@
         </div>
 
         <br>
-        <h2 class="text-center">How to make a claim on a Personal Accidental Insurance Plan?</h2>
+        <h4 class="text-center"><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
 
             <h5>Inform the insurer about the accident:</h5>

@@ -249,8 +249,156 @@
 .demo a:hover {
     opacity: .5;
 }
+
+/*-------------------------------------------------------------- # why moneyguides--------------------------------------------------------------*/
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.services .icon-box::before {
+    content: '';
+    position: absolute;
+    background: #e1f0fa;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius:
+        50px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.services .icon-box:hover::before {
+    background: #3498db;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #3498db;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size:
+        18px;
+}
+
+.services .title a {
+    color: #111;
+}
+
+.services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+    color: #fff;
+}
+
+.services .icon-box:hover .icon {
+    background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+    color: #3498db;
+}
+
+/*-------------------------------------------------------------- # More Services --------------------------------------------------------------*/
+.more-services {
+    padding-top: 20px;
+}
+
+.more-services .card {
+    border: 0;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.more-services .card-body {
+    z-index: 10;
+    background: rgba(255,
+            255, 255, 0.9);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+}
+
+.more-services .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.more-services .card-title a {
+    color: #222222;
+}
+
+.more-services .card-text {
+    color: #5e5e5e;
+}
+
+.more-services .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.4s;
+}
+
+.more-services .read-more a:hover {
+    text-decoration:
+        underline;
+}
+
+.more-services .card:hover .card-body {
+    background: #3498db;
+}
+
+.more-services .card:hover .read-more a,
+.more-services .card:hover .card-title,
+.more-services .card:hover .card-title a,
+.more-services .card:hover .card-text {
+    color: #fff;
+}
 </style>
 
+<link href="style2.css" rel="stylesheet">
 <?php include 'header.php'; ?>
 
 <!-- ======= Hero Section ======= -->
@@ -355,14 +503,13 @@
         <div class="container" data-aos="fade-up" id="thanks">
             <div class="row">
                 <div class="col-lg-6 about-img">
-                    <img src="https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        alt="">
+                    <img src="img/welcome.png" alt="">
                 </div>
 
                 <div class="col-lg-6 content">
                     <h2>Welcome to Moneyguides</h2>
-                    <h3>If you’re looking for a financial advisor near your location to help you achieve and maintain
-                        financial independence.</h3>
+                    <h4>If you’re looking for a financial advisor near your location to help you achieve and maintain
+                        financial independence.</h4>
                     <ul>
                         <li><i class="bi bi-check-circle"></i> We are here to help. Our experienced team of
                             professionals with diverse backgrounds takes pride in assisting our clients with their
@@ -552,7 +699,368 @@
 
         </div>
     </section>
+    <!-- partial:index.partial.html -->
+    <!--PEN CONTENT     -->
+    <div class="content">
+        <!--content inner-->
+        <div class="content__inner">
+            <header class="section-header">
+                <h2>How It Works</h2>
+
+            </header>
+            <div class="container overflow-hidden">
+                <!--multisteps-form-->
+                <div class="multisteps-form">
+                    <!--progress bar--><br><br>
+                    <div class="row text-center">
+                        <div class="col-12 col-lg-12 ml-auto mr-auto mb-4">
+                            <div class="multisteps-form__progress">
+                                <button class="multisteps-form__progress-btn js-active" type="button"
+                                    title="User Info">Register</button>
+
+                                <button class="multisteps-form__progress-btn" type="button" title="Address">Data
+                                    Gathering</button>
+
+                                <button class="multisteps-form__progress-btn" type="button" title="Order Info">Risk
+                                    Profiling</button>
+
+                                <button class="multisteps-form__progress-btn" type="button" title="Comments">Financial
+                                    Plan</button>
+
+                                <button class="multisteps-form__progress-btn" type="button" title="Order Info">Plan
+                                    Implementation</button>
+
+                                <button class="multisteps-form__progress-btn" type="button" title="Comments">Mobile
+                                    App</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--form panels-->
+                    <div class="row">
+                        <div class="col-12 col-lg-12 m-auto text-center">
+                            <form class="multisteps-form__form">
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">
+                                        <h4><b>Register</b></h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, a?</p>
+                                    </div>
+                                </div>
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/5554280/pexels-photo-5554280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">
+                                        <h4>Data Gathering</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, commodi!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/58729/pexels-photo-58729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">
+                                        <h4>Risk Profiling</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, quam.</p>
+                                    </div>
+                                </div>
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">
+                                        <h4>Financial Plan</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, vel.</p>
+                                    </div>
+                                </div>
+
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">
+                                        <h4>Plan Implementation</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, iusto.</p>
+                                    </div>
+                                </div>
+                                <!--single form panel-->
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white"
+                                    data-animation="scaleIn">
+                                    <img src="https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                        width="100%" class="img-stapper">
+                                    <div class="centered">Mobile App</div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ======= why moneyguides ======= -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h2>Why Moneyguides</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </header>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4 class="title"><a href="">Mobile App</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <h4 class="title"><a href="">Save Time and Efforts</a></h4>
+                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <h4 class="title"><a href="">Online KYC</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <h4 class="title"><a href="">Paperless</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 </main>
 <!-- End #main -->
 
+<script>
+//DOM elements
+const DOMstrings = {
+    stepsBtnClass: 'multisteps-form__progress-btn',
+    stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
+    stepsBar: document.querySelector('.multisteps-form__progress'),
+    stepsForm: document.querySelector('.multisteps-form__form'),
+    stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
+    stepFormPanelClass: 'multisteps-form__panel',
+    stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
+    stepPrevBtnClass: 'js-btn-prev',
+    stepNextBtnClass: 'js-btn-next'
+};
+
+
+//remove class from a set of items
+const removeClasses = (elemSet, className) => {
+
+    elemSet.forEach(elem => {
+
+        elem.classList.remove(className);
+
+    });
+
+};
+
+//return exect parent node of the element
+const findParent = (elem, parentClass) => {
+
+    let currentNode = elem;
+
+    while (!currentNode.classList.contains(parentClass)) {
+        currentNode = currentNode.parentNode;
+    }
+
+    return currentNode;
+
+};
+
+//get active button step number
+const getActiveStep = elem => {
+    return Array.from(DOMstrings.stepsBtns).indexOf(elem);
+};
+
+//set all steps before clicked (and clicked too) to active
+const setActiveStep = activeStepNum => {
+
+    //remove active state from all the state
+    removeClasses(DOMstrings.stepsBtns, 'js-active');
+
+    //set picked items to active
+    DOMstrings.stepsBtns.forEach((elem, index) => {
+
+        if (index <= activeStepNum) {
+            elem.classList.add('js-active');
+        }
+
+    });
+};
+
+//get active panel
+const getActivePanel = () => {
+
+    let activePanel;
+
+    DOMstrings.stepFormPanels.forEach(elem => {
+
+        if (elem.classList.contains('js-active')) {
+
+            activePanel = elem;
+
+        }
+
+    });
+
+    return activePanel;
+};
+
+//open active panel (and close unactive panels)
+const setActivePanel = activePanelNum => {
+
+    //remove active class from all the panels
+    removeClasses(DOMstrings.stepFormPanels, 'js-active');
+
+    //show active panel
+    DOMstrings.stepFormPanels.forEach((elem, index) => {
+        if (index === activePanelNum) {
+            elem.classList.add('js-active');
+            setFormHeight(elem);
+
+        }
+    });
+};
+
+//set form height equal to current panel height
+const formHeight = activePanel => {
+
+    const activePanelHeight = activePanel.offsetHeight;
+
+    DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+
+};
+
+const setFormHeight = () => {
+    const activePanel = getActivePanel();
+
+    formHeight(activePanel);
+};
+
+//STEPS BAR CLICK FUNCTION
+DOMstrings.stepsBar.addEventListener('click', e => {
+
+    //check if click target is a step button
+    const eventTarget = e.target;
+
+    if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
+        return;
+    }
+
+    //get active button step number
+    const activeStep = getActiveStep(eventTarget);
+
+    //set all steps before clicked (and clicked too) to active
+    setActiveStep(activeStep);
+
+    //open active panel
+    setActivePanel(activeStep);
+});
+
+//PREV/NEXT BTNS CLICK
+DOMstrings.stepsForm.addEventListener('click', e => {
+
+    const eventTarget = e.target;
+
+    //check if we clicked on `PREV` or NEXT` buttons
+    if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList
+            .contains(`${DOMstrings.stepNextBtnClass}`))) {
+        return;
+    }
+
+    //find active panel
+    const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
+
+    let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
+
+    //set active step and active panel onclick
+    if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
+        activePanelNum--;
+
+    } else {
+
+        activePanelNum++;
+
+    }
+
+    setActiveStep(activePanelNum);
+    setActivePanel(activePanelNum);
+
+});
+
+//SETTING PROPER FORM HEIGHT ONLOAD
+window.addEventListener('load', setFormHeight, false);
+
+//SETTING PROPER FORM HEIGHT ONRESIZE
+window.addEventListener('resize', setFormHeight, false);
+
+//changing animation via animation select !!!YOU DON'T NEED THIS CODE (if you want to change animation type, just change form panels data-attr)
+
+const setAnimationType = newType => {
+    DOMstrings.stepFormPanels.forEach(elem => {
+        elem.dataset.animation = newType;
+    });
+};
+
+//selector onchange - changing animation
+const animationSelect = document.querySelector('.pick-animation__select');
+
+animationSelect.addEventListener('change', () => {
+    const newAnimationType = animationSelect.value;
+
+    setAnimationType(newAnimationType);
+});
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 <?php include 'footer.php';?>

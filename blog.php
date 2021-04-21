@@ -43,7 +43,7 @@
                         </div>
 
                         <div class="col-md-6 col-sm-6 " data-aos="fade-up" data-aos-delay="200">
-                            <h3 style="font-weight: bold; color: white;">BLOGS</h3>
+                            <h4 style="font-weight: bold; color: white;">BLOGS</h4>
                             <p style="float: left; color: white;">If you’re looking for a financial advisor near your location to help you achieve and maintain financial independence, we are here to help. Our experienced team of professionals with diverse backgrounds takes pride in assisting
                                 our clients with their Financial Management needs. We deliver technical competency, empathy for clients, multi-generational planning, and customized services in the areas of investment management, financial planning, and
                                 tax all within a culture of compliance. Moneyguides have come to a mission exclusively assisting our Financial Partner’s plan the Right Financial Planning for the people efficiently to maintain and implement investment

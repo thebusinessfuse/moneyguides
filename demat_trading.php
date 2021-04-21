@@ -40,12 +40,11 @@ background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <h3 style="font-weight: bold;"><span style="color: aquamarine;">Send Message
-                            Demat Account</span></h3>
-                    <p style="color: white;">Get insured from the comfort of your home</p>
-                    <!-- ======= Contact Section ======= -->
-                    <section id="contact">
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= --><br>
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Demat Account</span></h4>
+
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -53,23 +52,25 @@ background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="form-control rounded" id="name"
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
                                                     placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control rounded" name="email" id="email"
-                                                    placeholder="Your Email" required>
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control rounded" name="message"
-                                                placeholder="Phone Number" required></input>
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded" rows="2" id="comment"
-                                                placeholder="Massage"></textarea>
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
                                         </div>
+
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -96,7 +97,7 @@ background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
 
     <!--content section-->
     <div class="container">
-        <h3>Demat Account</h3>
+        <h4>Demat Account</h4>
         <p>The shares that you buy and sell on a stock exchange (BSE or NSE), are stored in a Demat Account. The shares
             that are stored in your Demat Account are dematerialized (stored in the electronic format) and not as
             physical shares. When you buy
