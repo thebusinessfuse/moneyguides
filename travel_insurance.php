@@ -12,8 +12,14 @@
     border-radius: 5px;
 }
 
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .container {
@@ -32,16 +38,17 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
         <div class="container-fluid" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/travel.png" alt="" width="90%">
+                        <img src="img/travel.png" alt="" width="50%">
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
                     <!-- ======= Contact Section ======= --><br>
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Travel Insurance</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Travel
+                                Insurance</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
@@ -98,30 +105,48 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
     <!--content section-->
 
     <div class="container">
-        <h4><b>Travel Insurance</b></h4>
+        <div class="text-center">
+            <h4 class="spanals"><b>Travel Insurance</b></h4>
+        </div>
         <p>You book yourself a holiday abroad, or want to travel within the country. You need to insure yourself against
             a medical emergency while travelling or in the country you are holidaying, loss of baggage, passport and so
             on. The travel insurance
             plan compensates you for this loss.
         </p>
         <hr>
-        <h4><b>Why Travel Insurance?</b></h4>
-        <p>Medical ailments may force you to cancel your trip, which will result in heavy cancellation penalties. Such
-            scenarios are covered to a certain degree by Travel Insurance. Losses incurred due to missing flights,
-            delays and missed connections.
-            Loss of Baggage could create serious issues. Travel Insurance helps in covering the cost of baggage and
-            transport to the intended port. In case baggage is permanently lost, travel insurance will help you cover
-            the necessary costs. Ailments
-            suffered during the trip can result in heavy medical bills. Travel Insurance helps tide over such costs.
-            Some Travel Insurance policies help cover the losses incurred if an airline, cruiser or hotel defaults on
-            their commitments. Acts
-            of Terrorism or war are also covered by Travel Insurance.
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="img/travel.png" alt="" width="100%">
+            </div>
+            <div class="col-sm-6">
+                <h4><b>Why Travel Insurance?</b></h4>
+                <p>Medical ailments may force you to cancel your trip, which will result in heavy cancellation
+                    penalties. </p>
+                <p>Such
+                    scenarios are covered to a certain degree by Travel Insurance. Losses incurred due to missing
+                    flights,
+                    delays and missed connections.</p>
+                <p>Loss of Baggage could create serious issues.</p>
+                <p> Travel Insurance helps in covering the cost of baggage and
+                    transport to the intended port. </p>
+                <p>In case baggage is permanently lost, travel insurance will help you cover
+                    the necessary costs.</p>
+                <p>Ailments
+                    suffered during the trip can result in heavy medical bills.</p>
+                <p>Travel Insurance helps tide over such costs.</p>
+                <p> Some Travel Insurance policies help cover the losses incurred if an airline, cruiser or hotel
+                    defaults on
+                    their commitments.</p>
+                <p>Acts
+                    of Terrorism or war are also covered by Travel Insurance.</p>
 
 
-        </p>
+            </div>
+        </div>
+
         <hr>
 
-        <div id="card"  data-aos="fade-down"
+        <div id="card" data-aos="fade-down"
             style=" background-color: #63d471;
             background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
 

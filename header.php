@@ -11,12 +11,11 @@
 
         <!-- Favicons -->
         <link href="img/favicon.png" rel="icon">
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="img/favicon.png" rel="apple-touch-icon">
 
         <!-- Google Fonts -->
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
         <!-- Vendor CSS Files -->
         <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -25,7 +24,6 @@
         <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
         <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
         <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
 
         <!-- Template Main CSS File -->
 
@@ -45,6 +43,7 @@
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <a href="index.php"><img src="https://moneyguides.in/assets/logo.png" alt=""></a>
                 </div>
+
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
@@ -79,9 +78,6 @@
                                 <li><a href="investment_planning.php">Investment Planning</a></li>
                                 <li><a href="iop.php">IPO's</a></li>
                                 <li><a href="money_market_fund.php">Money Market Fund</a></li>
-
-
-
                             </ul>
                         </li>
 
@@ -100,7 +96,6 @@
                                 <li><a href="medical_loan.php">Medical Loan</a></li>
                                 <li><a href="personal_loan.php">Personal Loan</a></li>
                                 <li><a href="reverse_mortage.php">Reverse Mortgage</a></li>
-
                             </ul>
                         </li>
 
@@ -112,7 +107,6 @@
                                 <li><a href="public_provident.php">Public Provident Fund</a></li>
                                 <li><a href="savings_account.php">Savings Bank Account</a></li>
                                 <li><a href="tax_planning.php">Tax Planning</a></li>
-
                             </ul>
                         </li>
 
@@ -121,12 +115,11 @@
                             <ul>
                                 <li><a href="independent_house.php">Independent House</a></li>
                                 <li><a href="residential_apartment.php">Residential apartment</a></li>
-
                             </ul>
                         </li>
 
                         <!-- 
-                    <li><a class="nav-link scrollto" href="blog.php">Blogs</a></li> -->
+                        <li><a class="nav-link scrollto" href="blog.php">Blogs</a></li> -->
                         <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
 
                     </ul>

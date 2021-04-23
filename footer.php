@@ -3,7 +3,6 @@
        <div class="footer-top">
            <div class="container">
                <div class="row">
-
                    <div class="col-lg-3 col-md-6 footer-links">
                        <h4>Insurance</h4>
                        <ul>
@@ -99,7 +98,8 @@
                            <li><i class="bi bi-chevron-right"></i> <a href="personal_loan.php">Personal Loan</a></li>
                            <li><i class="bi bi-chevron-right"></i> <a href="reverse_mortage.php">Reverse Mortgage</a>
                            </li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="two_wheeler_loan.php">Two Wheeler Loans</a></li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="two_wheeler_loan.php">Two Wheeler Loans</a>
+                           </li>
 
                        </ul>
                    </div>
@@ -107,10 +107,14 @@
                    <div class="col-lg-3 col-md-6 footer-links">
                        <h4>Savings</h4>
                        <ul>
-                           <li><i class="bi bi-chevron-right"></i> <a href="current_account.php">Current Account</a></li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="recurring_dpst.php">Recurring Deposit</a></li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="public_provident.php">Public Provident Fund</a></li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="savings_account.php">Savings Bank Account</a></li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="current_account.php">Current Account</a>
+                           </li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="recurring_dpst.php">Recurring Deposit</a>
+                           </li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="public_provident.php">Public Provident
+                                   Fund</a></li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="savings_account.php">Savings Bank
+                                   Account</a></li>
                            <li><i class="bi bi-chevron-right"></i> <a href="tax_planning.php">Tax Planning</a></li>
                        </ul>
                        <br>
@@ -119,7 +123,8 @@
                        <ul>
                            <li><i class="bi bi-chevron-right"></i> <a href="current_account.php">Blog</a></li>
                            <li><i class="bi bi-chevron-right"></i> <a href="about.php">About</a></li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="terms_services.php">Terms of service</a></li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="terms_services.php">Terms of service</a>
+                           </li>
                            <li><i class="bi bi-chevron-right"></i> <a href="privacy_policy.php">Privacy policy</a></li>
                            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">Contact</a></li>
 
@@ -133,29 +138,21 @@
                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                        </div>
                    </div>
-
-
-
-
-
                </div>
            </div>
        </div>
 
        <div class="container">
-           <!-- <div class="copyright">
-                &copy; Copyright <strong>Moneyguides</strong>. All Rights Reserved
-            </div> -->
-           <div class="credits">
 
+           <div class="credits">
                &copy; Copyright <strong>Moneyguides</strong>. All Rights Reserved
            </div>
        </div>
    </footer>
    <!-- End Footer -->
 
-   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-           class="bi bi-arrow-up-short"></i></a>
+   <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="border-radius: 20px;"><i
+           class="bi bi-caret-up-fill"></i></a>
 
    <!-- Vendor JS Files -->
    <script src="assets/vendor/aos/aos.js"></script>

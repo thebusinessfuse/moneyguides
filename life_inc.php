@@ -13,7 +13,12 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .container {
@@ -28,15 +33,15 @@
 
     <div class="container-fluid" id="card" style="padding: 25px; background-color: #000000;
                          background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-            ">
+            " data-aos="zoom-in-right">
         <!-- ======= How It Works Section ======= -->
 
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/busines.png" alt="" width="80%">
+                        <img src="img/life_inc.png" alt="" width="50%">
                     </div>
                 </div>
 
@@ -44,8 +49,9 @@
 
                     <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Health Insurance Plan</span></h4>
-                      
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Life
+                                Insurance</span></h4>
+
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
@@ -53,8 +59,9 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="rounded border-secondary form-control"
-                                                    id="name" placeholder="Your Name" required>
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
                                                 <input type="email" class="form-control rounded border-secondary"
@@ -63,12 +70,12 @@
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control rounded border-secondary" name="message"
-                                                placeholder="Phone Number" required></input>
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded border-secondary" rows="2" id="comment"
-                                                placeholder="Massage"></textarea>
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
                                         </div>
 
                                         <div class="my-3">
@@ -98,18 +105,37 @@
     <!--content section-->
 
     <div class="container">
-        <h4><b>Life Insurance</b></h4>
-        <p>Life Insurance is an agreement or a long-term contract between the life insurer and the policyholder. It
-            guarantees compensation on loss of life within the term of the plan, in return for a specified premium. The
-            beneficiary/nominee whose
-            name has been mentioned in the contract gets a specific sum called sum assured from the insurer, on death of
-            the policyholder, within the term of the plan. A Life Insurance Plan gives adequate security to your family
-            on an unexpected demise.
-            Money can never compensate the loss of a loved one. But, there’s no need for your family to suffer
-            financially. You enjoy peace of mind knowing your family is secure.
-        </p>
+        <div class="text-center">
+            <h4 class="spanals"><b>Life Insurance</b></h4>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Life Insurance is an agreement or a long-term contract between the life insurer and the policyholder.
+                <p>It
+                    guarantees compensation on loss of life within the term of the plan, in return for a specified
+                    premium.</p>
+                <p>The
+                    beneficiary/nominee whose
+                    name has been mentioned in the contract gets a specific sum called sum assured from the insurer, on
+                    death of
+                    the policyholder, within the term of the plan.</p>
+                <p>A Life Insurance Plan gives adequate security to your family
+                    on an unexpected demise.</p>
+                <p>Money can never compensate the loss of a loved one. But, there’s no need for your family to suffer
+                    financially. You enjoy peace of mind knowing your family is secure.</p>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/life_inc.png" alt="" width="75%">
+            </div>
+        </div>
         <hr>
-        <h5><b>Why Life Insurance?</b></h5>
+      <div class="row">
+          <div class="col-sm-6">
+              <img src="img/life_inc.png" alt="">
+          </div>
+          <div class="col-sm-6">
+          <h5><b>Why Life Insurance?</b></h5>
         <p>Your family enjoys financial security in your absence. Your wife gets the money to meet daily expenses and
             pay back loans like home loan, car loan and any other liability. Your children enjoy a quality education and
             there’s money for their
@@ -131,6 +157,8 @@
                 retirement.
             </li>
         </ul>
+          </div>
+      </div>
         <hr>
         <h4><b>Terms of Life Insurance</b></h4>
         <h5><b>Insured:</b></h5>
@@ -246,52 +274,128 @@
         <hr>
 
         <h4><b>Riders on Life Insurance</b></h4>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5>Accidental death benefit rider</h5>
-            <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
-                the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
-                assured is calculated on the
-                original sum assured and varies across life insurers. Some insurers have a cap on maximum sum assured.
-            </p>
-        </div>
-        <hr>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5><b>Critical Illness rider</b></h5>
-            <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
-                the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
-                assured is calculated on the
-                original sum assured and varies across life insurers. Some insurers have a cap on maximum sum assured.
-            </p>
+
+
+        <!-- accordiance -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h6><b>Accidental death benefit rider</b></h6>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the
+                            nominees of
+                            the plan, if the policyholder dies in an accident. The percentage of accidental death
+                            benefit rider sum
+                            assured is calculated on the
+                            original sum assured and varies across life insurers. Some insurers have a cap on maximum
+                            sum assured.
+                        </p>
+                    </div>
+                </div>
+            </div><br>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h6><b>Critical Illness rider</b></h6>
+
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the
+                            nominees of
+                            the plan, if the policyholder dies in an accident. The percentage of accidental death
+                            benefit rider sum
+                            assured is calculated on the
+                            original sum assured and varies across life insurers. Some insurers have a cap on maximum
+                            sum assured.
+                        </p>
+                    </div>
+                </div>
+            </div><br>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h6>
+                            <b> Accidental disability benefit rider</b>
+                        </h6>
+
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the
+                            nominees of
+                            the plan, if the policyholder dies in an accident. The percentage of accidental death
+                            benefit rider sum
+                            assured is calculated on the
+                            original sum assured and varies across life insurers. Some insurers have a cap on maximum
+                            sum assured.
+                        </p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                        <h6><b>Waiver of premium rider</b></h6>
+
+                    </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the
+                            nominees of
+                            the plan, if the policyholder dies in an accident. The percentage of accidental death
+                            benefit rider sum
+                            assured is calculated on the
+                            original sum assured and varies across life insurers. Some insurers have a cap on maximum
+                            sum assured.
+                        </p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        <h6><b>Accidental death benefit rider</b></h6>
+
+                    </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the
+                            nominees of
+                            the plan, if the policyholder dies in an accident. The percentage of accidental death
+                            benefit rider sum
+                            assured is calculated on the
+                            original sum assured and varies across life insurers. Some insurers have a cap on maximum
+                            sum assured.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+          
 
         </div>
 
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5>
-               <b> Accidental disability benefit rider</b>
-            </h5>
-            <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
-                the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
-                assured is calculated on the
-                original sum assured and varies across life insurers. Some insurers have a cap on maximum sum assured.
-            </p>
-        </div>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5><b>Waiver of premium rider</b></h5>
-            <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
-                the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
-                assured is calculated on the
-                original sum assured and varies across life insurers. Some insurers have a cap on maximum sum assured.
-            </p>
-        </div>
-
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5><b>Accidental death benefit rider</b></h5>
-            <p>In accidental death benefit rider, the life insurer pays sum assured + rider benefit to the nominees of
-                the plan, if the policyholder dies in an accident. The percentage of accidental death benefit rider sum
-                assured is calculated on the
-                original sum assured and varies across life insurers. Some insurers have a cap on maximum sum assured.
-            </p>
-        </div>
     </div>
 </main><br><br>
 <!-- End #main -->

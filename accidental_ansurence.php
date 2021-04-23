@@ -11,11 +11,14 @@
     text-align: center;
     border-radius: 5px;
 }
-
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
-
 .container {
     padding: 2px 16px;
 }
@@ -36,17 +39,17 @@
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="https://www.bajajallianz.com/content/dam/bagic/car-insurance/car-insurance.png" alt=""
-                            width="100%">
+                            width="70%">
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
                     <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on Business Insurance</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice <br>on Business Insurance</span></h4>
                       
                         <div class="container" data-aos="fade-up">
                             <div class="container">
@@ -102,7 +105,7 @@
     <!--content section-->
 
     <div class="container">
-        <h4><b>Accidental Insurance Plan</b></h4>
+      <div class="text-center">  <h4 class="spanals"><b>Accidental Insurance Plan</b></h4></div>
         <p>You have just finished your meeting at office and rushing home for an early dinner is your main priority. You
             are riding your two wheeler looking carefully for those potholes and another vehicle hits you from behind.
             You are rushed to the
@@ -165,7 +168,7 @@
 
         <div id="card"
             style=" background-color: #63d471;
-            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
+            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="fade-right">
 
             <h5 class="text-center" style="color: white;"><b>Why buy Accidental Insurance plan?</b></h5>
             <!--==================card plze card here==================-->
@@ -221,12 +224,12 @@
 
         <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h4>Types of Accidental Insurance Plans</h4>
-            <h5>Individual Accidental Policies:</h5>
+            <h5><b>Types of Accidental Insurance Plans</b></h5>
+            <h6><b>Individual Accidental Policies:</b></h6>
             <ul>
                 <li>Individual Accidental Policies cover an individual in case of any accident.</li>
             </ul>
-            <h5>Group Accident Policies:</h5>
+            <h6><b>Group Accident Policies:</b></h6>
             <ul>
                 <li>A the term itself suggests, a Group Accident Policy is not meant for individuals. It is taken by
                     employers for their employees. Depending on the group size, discount on premium may be offered. It
@@ -241,7 +244,7 @@
         <h4 class="text-center"><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h4>
         <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
 
-            <h5>Inform the insurer about the accident:</h5>
+            <h5><b>Inform the insurer about the accident:</b></h5>
             <ul>
                 <li>The insurer must be informed about the accident as soon as possible. The insurer may also be
                     informed while the insured is on the way to the hospital. In order to show proof that the claim has
@@ -249,7 +252,7 @@
                     number or reference number of the insurer should be communicated.
                 </li>
             </ul>
-            <h5>Inform the insurer at the time of hospitalization:</h5>
+            <h5><b>Inform the insurer at the time of hospitalization:</b></h5>
             <ul>
                 <li>Fill the claim form.</li>
                 <li>Submit the FIR or police report if required.</li>

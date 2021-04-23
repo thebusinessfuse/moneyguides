@@ -13,14 +13,14 @@
     }
 
     to {
-        top: 50px;
+        top: 60px;
     }
 }
 
 .anima2 {
     position: relative;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -31,14 +31,14 @@
     }
 
     to {
-        top: 20px;
+        top: 30px;
     }
 }
 
 .buttom-anima {
     position: relative;
     animation-name: button;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
@@ -277,7 +277,7 @@
 }
 
 .services .icon-box:hover::before {
-    background: #3498db;
+    background: #1c2c5a;
     right: 0;
     top: 0;
     width: 100%;
@@ -293,7 +293,7 @@
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background: #3498db;
+    background: #236b3a;
     transition: all 0.3s ease-in-out;
 }
 
@@ -330,7 +330,7 @@
 }
 
 .services .icon-box:hover .icon i {
-    color: #3498db;
+    color: #236b3a;
 }
 
 /*-------------------------------------------------------------- # More Services --------------------------------------------------------------*/
@@ -396,6 +396,9 @@
 .more-services .card:hover .card-text {
     color: #fff;
 }
+
+
+
 </style>
 
 <link href="style2.css" rel="stylesheet">
@@ -499,32 +502,38 @@
 <main id="main">
 
     <!-- ======= Welcome to Moneyguides ======= -->
-    <section id="about">
+    <section id="about" style="background-color:;">
         <div class="container" data-aos="fade-up" id="thanks">
+        <h2 class="text-center">
+            <div class="spanals">
+            Welcome to Moneyguides
+            </div>
+        </h2>
             <div class="row">
-                <div class="col-lg-6 about-img">
-                    <img src="img/welcome.png" alt="">
-                </div>
-
-                <div class="col-lg-6 content">
-                    <h2>Welcome to Moneyguides</h2>
+            <div class="col-lg-7 content"><br>
+                   
                     <h4>If you’re looking for a financial advisor near your location to help you achieve and maintain
                         financial independence.</h4>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> We are here to help. Our experienced team of
+                        <li> We are here to help. Our experienced team of
                             professionals with diverse backgrounds takes pride in assisting our clients with their
                             Financial Management needs.</li>
-                        <li><i class="bi bi-check-circle"></i> We deliver technical competency, empathy for clients,
+                        <li>We deliver technical competency, empathy for clients,
                             multi-generational planning, and customized services in the areas of investment management,
                             financial planning, and tax all within a culture
                             of compliance.</li>
-                        <li><i class="bi bi-check-circle"></i> Moneyguides have come to a mission exclusively assisting
+                        <li> Moneyguides have come to a mission exclusively assisting
                             our Financial Partner’s plan the Right Financial Planning for the people efficiently to
                             maintain and implement investment strategy
                             that meets their lifetime financial goals at this digital age.</li>
                     </ul>
 
                 </div>
+                <div class="col-lg-5 about-img">
+                    <img src="img/welcome.png" alt="">
+                </div>
+
+              
             </div>
 
         </div>
@@ -699,8 +708,8 @@
 
         </div>
     </section>
-    <!-- partial:index.partial.html -->
-    <!--PEN CONTENT     -->
+    <!-- ======= why moneyguides ======= -->
+    <!--oPEN CONTENT     -->
     <div class="content">
         <!--content inner-->
         <div class="content__inner">
@@ -822,7 +831,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <div class="icon"><i class="bi bi-phone"></i></div>
                         <h4 class="title"><a href="">Mobile App</a></h4>
                         <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
                             excepturi</p>
@@ -831,7 +840,7 @@
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <div class="icon"><i class="bi bi-smartwatch"></i></div>
                         <h4 class="title"><a href="">Save Time and Efforts</a></h4>
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore</p>
@@ -840,7 +849,7 @@
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <div class="icon"><i class="bx bx-world"></i></div>
                         <h4 class="title"><a href="">Online KYC</a></h4>
                         <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         </p>
@@ -849,7 +858,7 @@
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <div class="icon"><i class="bi bi-book-half"></i></div>
                         <h4 class="title"><a href="">Paperless</a></h4>
                         <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                         </p>
@@ -860,6 +869,142 @@
 
         </div>
     </section>
+
+
+    
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+            <i class="bi bi-dice-1"></i>
+              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+            <i class="bi bi-diagram-2"></i>
+              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+            <i class="bi bi-diamond-half"></i>
+              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+            <i class="bi bi-dice-1-fill"></i>
+              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="https://image.freepik.com/free-vector/powder-holi-paints-frame-border-solated_1441-3793.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="https://image.freepik.com/free-vector/empty-illuminated-podium-realistic_1441-3744.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="https://image.freepik.com/free-photo/explosion-colored-powder-white-background_1112-1555.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="https://image.freepik.com/free-vector/collection-tree-isolated-white-background_64749-96.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
 </main>
 <!-- End #main -->
 

@@ -13,7 +13,12 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .container {
@@ -36,9 +41,9 @@
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/health_insurance.png" alt="" width="90%">
+                        <img src="img/health_insurance.png" alt="" width="50%">
                     </div>
                 </div>
 
@@ -111,7 +116,7 @@
             your family under the family floater plan.
         </p>
 
-        <h4><b>What are things to know before buying a Health Insurance Plan ?</b></h4>
+        <h5><b>What are things to know before buying a Health Insurance Plan ?</b></h5>
         <ul>
             <li>Know the waiting period of your health insurance plan
             </li>
@@ -131,14 +136,14 @@
 
         <div id="card"
             style=" background-color: #63d471;
-            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
+            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"  data-aos="fade-down">
 
             <h5 class="text-center" style="color: white;"><b>Why buy Business Insurance?
                 </b></h5>
             <!--==================card plze card here==================-->
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <div class="container"><br>
                             <h6><b>Cashless Hospitalization</b></h6>
                             <p>All you have to do is show your health insurance card at the hospital. You get free
@@ -148,7 +153,7 @@
                     </div>
                 </div><br>
                 <div class="col-sm-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-out">
                         <div class="container"><br>
                             <h6><b>Minimum Entry Age
                                 </b></h6>
@@ -161,7 +166,7 @@
 
                 <div class="col-sm-3">
                     <div class="card">
-                        <div class="container"><br>
+                        <div class="container" data-aos="zoom-in"><br>
                             <h6><b>Tax Benefits
                                 </b></h6>
                             <p>YPremiums on health plan, tax deductible up to INR 25,000 a year. If you are under 60
@@ -173,7 +178,7 @@
 
                 <div class="col-sm-3">
                     <div class="card">
-                        <div class="container"><br>
+                        <div class="container" data-aos="zoom-out"><br>
                             <h6><b>Lifelong Renewability
                                 </b></h6>
                             <p>Minimum Entry Age Health insurance plans offer first time buyers, the option to enter
@@ -186,15 +191,15 @@
             <!--==================End card plze card here==================-->
         </div><br>
 
-        <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h4><b>Types of Accidental Insurance Plans</b></h4>
-            <h5><b>Individual Accidental Policies:</b></h5>
+        <h5 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h5>
+        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="zoom-in">
+            <h5><b>Types of Accidental Insurance Plans</b></h5>
+            <h6><b>Individual Accidental Policies:</b></h6>
             <ul>
                 <li>Individual Accidental Policies cover an individual in case of any accident.</li>
             </ul>
 
-            <h5><b>Group Accident Policies:</b></h5>
+            <h6><b>Group Accident Policies:</b></h6>
             <ul>
                 <li>A the term itself suggests, a Group Accident Policy is not meant for individuals. It is taken by
                     employers for their employees. Depending on the group size, discount on premium may be offered. It
@@ -203,13 +208,11 @@
                     benefits like that of individual accidental insurance plan.
                 </li>
             </ul>
-
         </div>
-
         <br>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h4><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h4>
-            <h5><b>Inform the insurer about the accident:</b></h5>
+        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="zoom-out">
+            <h5><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h5>
+            <h6><b>Inform the insurer about the accident:</b></h6>
             <ul>
                 <li>The insurer must be informed about the accident as soon as possible. The insurer may also be
                     informed while the insured is on the way to the hospital. In order to show proof that the claim has
@@ -218,7 +221,7 @@
                 </li>
             </ul>
 
-            <h5><b>Inform the insurer at the time of hospitalization:</b></h5>
+            <h6><b>Inform the insurer at the time of hospitalization:</b></h6>
             <ul>
                 <li>Fill the claim form.</li>
                 <li>Submit the FIR or police report if required.</li>

@@ -33,17 +33,19 @@
                         <div class="col-sm-8">
                         <div class="container" data-aos="fade-up">
                         <i class="bi-geo-alt" style="width: 500px; color: #ffffff;"></i>
-                        <h6 style="color: white;">Address</h6>
-                        <address style="color: white;">425/39, 7th floor, 11th cross, Wilson Garden
-                            Bangalore-560027
+                        <h6 style="color: white;">Address<br><span>425/39, 7th floor, 11th cross, Wilson Garden
+                            Bangalore-560027</span></h6>
+                        <address style="color: white;">
                         </address>
 
-                        <i class="bi bi-phone" style="width: 350px; color: #ffffff;"></i>
-                        <h6 style="color: white;">Phone Number</h6>
-                        <p><a href="tel:+91-7795183795" style="color: #ffffff;">+91-7795183795</a></p>
-                        <i class="bi bi-envelope" style="width: 350px; color:#ffffff;"></i>
-                        <h6 style="color: white;">Email</h6>
-                        <p><a href="info@moneyguides.in" style="color: #ffffff;">info@moneyguides.in</a></p>
+                        <i class="bi bi-phone" style="color: #ffffff;"></i><br>
+                        <h6 style="color: white;">Phone Number<br><span>
+                        <a href="tel:+91-7795183795" style="color: #ffffff;">+91-7795183795</a>
+                        </span></h6>
+                        
+                        <i class="bi bi-envelope" style="width: 350px; color:#ffffff;"></i><br>
+                        <h6 style="color: white;">Email<br><span><a href="info@moneyguides.in" style="color: #ffffff;">info@moneyguides.in</a></span></h6>
+                     
                     </div>
                         </div>
                         <div class="col-sm-2"></div>
