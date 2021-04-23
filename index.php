@@ -2,7 +2,7 @@
 .anima {
     position: relative;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -20,9 +20,9 @@
 .anima2 {
     position: relative;
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes example {
@@ -81,10 +81,7 @@
         animation: breath 4s linear infinite;
         background: url("https://images.pexels.com/photos/4394221/pexels-photo-4394221.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     }
-}
-
-/* its for content title and button */
-
+    
 .anima {
     position: relative;
     animation-name: example;
@@ -138,6 +135,10 @@
         top: 20px;
     }
 }
+
+}
+
+/* its for content title and button */
 
 /* scroll button */
 
@@ -442,10 +443,9 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="intro-body">
-                                    <p class="intro-title-top">Corporate Fixed Deposit
-                                    </p>
+                                    <p class="intro-title-top">Home Insurance</p>
 
-                                    <h1 class="intro-title mb-4 anima2">
+                                    <h1 class="intro-title mb-4 anima">
                                         <span class="anima">How safe are
                                             <br> Corporate Fixed Deposit?</span>
                                     </h1>
@@ -461,8 +461,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide carousel-item-a intro-item bg-image"
-            style="background-image: url(assets/img/slide-3.jpg)">
+        <div class="swiper-slide carousel-item-a intro-item bg-image" id="zoom">
             <div class="overlay overlay-a"></div>
             <div class="intro-content display-table">
                 <div class="table-cell">
@@ -470,16 +469,12 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="intro-body">
-                                    <p class="intro-title-top">Commodity Exchange</p>
+                                    <p class="intro-title-top">Home Insurance</p>
 
-                                    <h1 class="intro-title mb-4 anima2">
+                                    <h1 class="intro-title mb-4 anima">
                                         <span class="anima">How safe are
                                             <br> Corporate Fixed Deposit?</span>
                                     </h1>
-
-                                    <!-- <p class="intro-subtitle intro-price buttom-anima">
-                                            <a href="#"><span class="price-a">Please contact me</span></a>
-                                        </p> -->
                                     <p class="intro-subtitle intro-price buttom-anima">
                                     <section id="section10" class="demo">
                                         <a href="#thanks"><span></span></a>

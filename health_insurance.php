@@ -24,7 +24,6 @@
 .container {
     padding: 2px 16px;
 }
-
 </style>
 <?php include 'header.php'; ?>
 <main id="main">
@@ -48,7 +47,7 @@
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
                         <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Health
                                 Insurance Plan</span></h4>
@@ -108,35 +107,60 @@
     <!--content section-->
 
     <div class="container">
-        <h4><b>Health Insurance Plan</b></h4>
+        <div class="text-center">
+            <h4 class="spanals"><b>Health Insurance Plan</b></h4>
+        </div>
         <p>You have to pay a sum of money (Health insurance premium), to avail a health insurance policy. Your medical
             bills will be paid back to the extent you have insured yourself (premium you have paid). The health
             insurance plan pays your hospitalization
             expenses/bills, if you are hospitalized for at least 24 hours. You can also take a health insurance plan for
             your family under the family floater plan.
         </p>
+    </div>
+    <div style="padding:20px; background: linear-gradient(to right, #3e5151, #decba4); ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="about-col">
+                        <img src="img/health_inc.png" alt="" width="50%">
+                    </div>
+                </div>
+                <div class="col-sm-6"><br>
+                    <h5><b>What are things to know before buying a Health Insurance Plan ?</b></h5>
+                    <ul>
+                        <li>Know the waiting period of your health insurance plan
+                        </li>
+                        <li>A health insurance plan has a waiting period of 1 month after you avail it. The health
+                            insurance
+                            plan
+                            will not pay your medical bills for any disease you contract, within a month of taking up
+                            the
+                            health
+                            insurance plan.
+                        </li>
+                        <li>You are hospitalized after a week of availing the health insurance plan .When the hospital
+                            bill
+                            is
+                            presented you get a nasty shock. Your bills are not settled by the health insurer as you are
+                            hospitalized within a week of availing your
+                            health insurance plan. You are covered by the health insurance plan only a month after
+                            availing
+                            it.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
 
-        <h5><b>What are things to know before buying a Health Insurance Plan ?</b></h5>
-        <ul>
-            <li>Know the waiting period of your health insurance plan
-            </li>
-            <li>A health insurance plan has a waiting period of 1 month after you avail it. The health insurance plan
-                will not pay your medical bills for any disease you contract, within a month of taking up the health
-                insurance plan.
-            </li>
-            <li>You are hospitalized after a week of availing the health insurance plan .When the hospital bill is
-                presented you get a nasty shock. Your bills are not settled by the health insurer as you are
-                hospitalized within a week of availing your
-                health insurance plan. You are covered by the health insurance plan only a month after availing it.
-            </li>
-        </ul>
 
-        <hr>
+    <div class="container">
         <!--=======================Card content==========================-->
 
         <div id="card"
             style=" background-color: #63d471;
-            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"  data-aos="fade-down">
+            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+            data-aos="fade-down">
 
             <h5 class="text-center" style="color: white;"><b>Why buy Business Insurance?
                 </b></h5>
@@ -192,7 +216,9 @@
         </div><br>
 
         <h5 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h5>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="zoom-in">
+        <div id="card"
+            style="  background: linear-gradient(to right, #d3cce3, #e9e4f0);  padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+            data-aos="zoom-in">
             <h5><b>Types of Accidental Insurance Plans</b></h5>
             <h6><b>Individual Accidental Policies:</b></h6>
             <ul>
@@ -210,7 +236,8 @@
             </ul>
         </div>
         <br>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="zoom-out">
+        <div id="card" style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+            data-aos="zoom-out">
             <h5><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h5>
             <h6><b>Inform the insurer about the accident:</b></h6>
             <ul>
@@ -226,12 +253,10 @@
                 <li>Fill the claim form.</li>
                 <li>Submit the FIR or police report if required.</li>
             </ul>
-
         </div>
+    </div>
+    <br><br>
 
+    <!-- End #main -->
 
-    </div><br><br>
-</main>
-<!-- End #main -->
-
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>

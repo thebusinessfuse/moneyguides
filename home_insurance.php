@@ -102,92 +102,104 @@
     <!-- End Breadcrumbs Section -->
     <!--content section-->
 
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Home Insurance</b></h4>
+    </div>
+    <div style="padding:20px;   background: linear-gradient(to right, #98b7b8, #debd78);">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5><b>WhyHome Insurance?</b></h5>
+                    <ul>
+                        <li>The insurer bears the risk of damage and destruction to the structure of your house and
+                            compensates
+                            you for
+                            this loss.</li>
+                        <li>You have to pay a premium for the benefit.</li>
+                        <li>Based on the premium you pay the structure of
+                            your
+                            house is insured for an amount
+                            called sum assured.</li>
+                        <li>You can also insure the contents of your house with home content insurance under
+                            a
+                            householder’s package policy.</li>
+                        <li>If you stay in a rented house you can avail only home content
+                            insurance and
+                            not home insurance for the
+                            structure.</li>
+
+                    </ul>
+
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="img/homins.png" alt=" " width="40%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!--=======================Card content==========================-->
     <div class="container">
-        <div class="text-center">
-            <h4 class="spanals"><b>Home Insurance</b></h4>
+        <div id="card"
+            style=" background-color: #63d471;
+            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+            data-aos="fade-down">
+            <h5 class="text-center text-white"><b>Why buy Home Insurance?</b></h5>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+
+                        <div class="container"><br>
+                            <h5><b>Protects your structure</b></h5>
+                            <p>Helps pay for the replacement of the structure of your home, if damaged in a natural or
+                                manmade calamity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+
+                        <div class="container" data-aos="zoom-in"><br>
+                            <h5><b>Protects your contents</b></h5>
+                            <p>A householder’s package policy, compensates you against damage and loss of the contents
+                                of
+                                your home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+
+                        <div class="container"><br>
+                            <h5><b>Special benefits</b></h5>
+                            <p>You can avail special cover for jewelry and precious items in your home. Alternate
+                                accommodation if your home is under repair.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+
+                        <div class="container"><br>
+                            <h5><b>Minimum It is very cheap</b></h5>
+                            <p>It can be very costly to repair the damage to the structure of your home. The premiums on
+                                home insurance are a pittance compared to this loss.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <p>The insurer bears the risk of damage and destruction to the structure of your house and compensates
-                    you for
-                    this loss.</p>
-                <p>You have to pay a premium for the benefit.</p>
-                <p>Based on the premium you pay the structure of
-                    your
-                    house is insured for an amount
-                    called sum assured.</p>
-                <p>You can also insure the contents of your house with home content insurance under
-                    a
-                    householder’s package policy.</p>
-                <p>If you stay in a rented house you can avail only home content
-                    insurance and
-                    not home insurance for the
-                    structure.</p>
-                </p>
-            </div>
-            <div class="col-sm-6">
-                <img src="img/homins.png" alt=" " width="50%;">
-            </div>
-        </div>
-
-
-        <hr>
-
-        <h5><b>Why buy Home Insurance?</b></h5>
-        <!--=======================Card content==========================-->
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="card">
-
-                    <div class="container"><br>
-                        <h5><b>Protects your structure</b></h5>
-                        <p>Helps pay for the replacement of the structure of your home, if damaged in a natural or
-                            manmade calamity.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-
-                    <div class="container" data-aos="zoom-in"><br>
-                        <h5><b>Protects your contents</b></h5>
-                        <p>A householder’s package policy, compensates you against damage and loss of the contents of
-                            your home.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-
-                    <div class="container"><br>
-                        <h5><b>Special benefits</b></h5>
-                        <p>You can avail special cover for jewelry and precious items in your home. Alternate
-                            accommodation if your home is under repair.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-
-                    <div class="container"><br>
-                        <h5><b>Minimum It is very cheap</b></h5>
-                        <p>It can be very costly to repair the damage to the structure of your home. The premiums on
-                            home insurance are a pittance compared to this loss.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div><br>
+        <br>
 
         <h3 class="text-center"><b>Key factors to consider for Home Insurance</b></h3>
-
-
-
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -208,7 +220,7 @@
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -238,7 +250,7 @@
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -248,7 +260,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      
+
                         <ul>
                             <li>You live in a posh area in a metro city. You have availed a comprehensive home insurance
                                 policy
@@ -277,7 +289,7 @@
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
@@ -309,7 +321,7 @@
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -334,7 +346,7 @@
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingsix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">

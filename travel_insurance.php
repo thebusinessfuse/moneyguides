@@ -113,100 +113,102 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
             on. The travel insurance
             plan compensates you for this loss.
         </p>
-        <hr>
+    </div>
+    <div style="background: linear-gradient(to right, #d1913c, #ffd194); padding: 30px;">
         <div class="row">
-            <div class="col-sm-6">
-                <img src="img/travel.png" alt="" width="100%">
+            <div class="col-sm-6 text-center">
+                <img src="img/travel.png" alt="" width="80%">
             </div>
             <div class="col-sm-6">
                 <h4><b>Why Travel Insurance?</b></h4>
-                <p>Medical ailments may force you to cancel your trip, which will result in heavy cancellation
-                    penalties. </p>
-                <p>Such
-                    scenarios are covered to a certain degree by Travel Insurance. Losses incurred due to missing
-                    flights,
-                    delays and missed connections.</p>
-                <p>Loss of Baggage could create serious issues.</p>
-                <p> Travel Insurance helps in covering the cost of baggage and
-                    transport to the intended port. </p>
-                <p>In case baggage is permanently lost, travel insurance will help you cover
-                    the necessary costs.</p>
-                <p>Ailments
-                    suffered during the trip can result in heavy medical bills.</p>
-                <p>Travel Insurance helps tide over such costs.</p>
-                <p> Some Travel Insurance policies help cover the losses incurred if an airline, cruiser or hotel
-                    defaults on
-                    their commitments.</p>
-                <p>Acts
-                    of Terrorism or war are also covered by Travel Insurance.</p>
-
-
+                <ul>
+                    <li>Medical ailments may force you to cancel your trip, which will result in heavy cancellation
+                        penalties. </li>
+                    <li>Such
+                        scenarios are covered to a certain degree by Travel Insurance. Losses incurred due to missing
+                        flights,
+                        delays and missed connections.</li>
+                    <li>Loss of Baggage could create serious issues.</li>
+                    <li> Travel Insurance helps in covering the cost of baggage and
+                        transport to the intended port.</li>
+                    <li>In case baggage is permanently lost, travel insurance will help you cover
+                        the necessary costs.</li>
+                    <li>Ailments
+                        suffered during the trip can result in heavy medical bills.</p>
+                        <p>Travel Insurance helps tide over such costs.
+                    </li>
+                    <li> Some Travel Insurance policies help cover the losses incurred if an airline, cruiser or hotel
+                        defaults on
+                        their commitments.</li>
+                    <li>Acts
+                        of Terrorism or war are also covered by Travel Insurance.</li>
+                </ul>
             </div>
         </div>
 
-        <hr>
+    </div>
 
-        <div id="card" data-aos="fade-down"
-            style=" background-color: #63d471;
-            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
+    <div id="card" data-aos="fade-down" style=" background-color: #63d471;
+            background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; ">
 
-            <h5 class="text-center" style="color: white;"><b>Why buy Travel Insurance?</b></h5>
-            <!--==================card plze card here==================-->
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Medical Costs</b></h6>
-                            <p>Travel Insurance pays your costly medical bills and hospitalization expenses, even in a
-                                foreign country.
-                            </p>
-                        </div>
+        <h5 class="text-center" style="color: white;"><b>Why buy Travel Insurance?</b></h5>
+        <!--==================card plze card here==================-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Medical Costs</b></h6>
+                        <p>Travel Insurance pays your costly medical bills and hospitalization expenses, even in a
+                            foreign country.
+                        </p>
                     </div>
-                </div><br>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Missed Connections</b></h6>
-                            <p>Travel insurance pays you, if you miss your connecting flight in a foreign country or for
-                                bail if you get arrested in a foreign country.
+                </div>
+            </div><br>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Missed Connections</b></h6>
+                        <p>Travel insurance pays you, if you miss your connecting flight in a foreign country or for
+                            bail if you get arrested in a foreign country.
 
 
-                            </p>
-                        </div>
+                        </p>
                     </div>
-                </div><br>
+                </div>
+            </div><br>
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Baggage Loss
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Baggage Loss
 
-                                </b></h6>
-                            <p>You are compensated for the loss of baggage or your passport in a foreign country.
+                            </b></h6>
+                        <p>You are compensated for the loss of baggage or your passport in a foreign country.
 
 
-                            </p>
-                        </div>
+                        </p>
                     </div>
-                </div><br>
+                </div>
+            </div><br>
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Emergency Evacuation
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Emergency Evacuation
 
-                                </b></h6>
-                            <p>You are compensated for any emergency evacuation, especially storms and hurricanes in a
-                                foreign country.
+                            </b></h6>
+                        <p>You are compensated for any emergency evacuation, especially storms and hurricanes in a
+                            foreign country.
 
 
-                            </p>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
-            <!--==================End card plze card here==================-->
-        </div><br>
+        </div>
+        <!--==================End card plze card here==================-->
+    </div><br>
+    <div class="container">
         <!--eligibility for travel insurance-->
         <h5><b>Eligibility for Travel Insurance</b></h5>
         <p>Domestic travel insurance can be purchased by any Indian national travelling within India. If any foreigner
@@ -217,8 +219,8 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
             of your trip.
 
         </p>
-        <hr>
-        <div id="card" style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
+      
+        <div id="card" style="  background: linear-gradient(to right, #edd3d7, #ffdde1); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
             <h5><b>Key factors to consider for Travel Insurance</b></h5>
             <h6><b>Factors to consider while buying Travel Insurance</b></h6>
             <ul>

@@ -35,7 +35,7 @@
                 <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/truck.png" alt="" width="70%">
-                       
+
                     </div>
                 </div>
 
@@ -96,27 +96,44 @@
     <!-- End Breadcrumbs Section -->
     <!--content section-->
 
-    <div class="container">
-        <div class="text-center">
-            <h4 class="spanals"><b>Vehicle Insurance</b></h4>
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Vehicle Insurance</b></h4>
+    </div>
+
+    <div style="  background: linear-gradient(to right,#decba4, #3e5151); padding: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5><b>There are thousands of reasons why you should actively protect your car and yourself in
+                            india.</b></h5>
+                    <ul>
+                        <li>Driving in India is a luxury that thousands of people partake of everyday.</li>
+                        <li>It is now quite simple to buy a
+                            car in the country, and with higher disposable incomes, most households are able to
+                            afford more than one car
+                            too. Having one’s car increases
+                            one’s mobility and eliminates dependence on public transport.</li>
+                        <li> However, driving in India also comes with its
+                            own perils. We often hear car owners rue traffic indiscipline; lack of legal enforcement
+                            by road authorities
+                            and myriad other complaints
+                            about that traffic scenario in India.</li>
+                        <li>Cases of road accidents and rule – breaking are reported in newspapers
+                            on a daily basis. Considering these factors, it is important to get car insurance right
+                            after one buys a
+                            car.</li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center"> <img src="img/truck.png" alt="" width="80%"></div>
+            </div>
         </div>
-        <h5><b>There are thousands of reasons why you should actively protect your car and yourself in india.</b></h5>
-        <p>Driving in India is a luxury that thousands of people partake of everyday. It is now quite simple to buy a
-            car in the country, and with higher disposable incomes, most households are able to afford more than one car
-            too. Having one’s car increases
-            one’s mobility and eliminates dependence on public transport. However, driving in India also comes with its
-            own perils. We often hear car owners rue traffic indiscipline; lack of legal enforcement by road authorities
-            and myriad other complaints
-            about that traffic scenario in India. Cases of road accidents and rule – breaking are reported in newspapers
-            on a daily basis. Considering these factors, it is important to get car insurance right after one buys a
-            car.
-
-        </p>
+    </div><br>
+    <div class="container">
         <h5><b>We present 5 reasons to get motor insurance in India</b></h5>
-
-        
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -142,7 +159,7 @@
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -170,7 +187,7 @@
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -198,7 +215,7 @@
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
@@ -227,7 +244,7 @@
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -254,13 +271,7 @@
                     </div>
                 </div>
             </div>
-
-           
-
         </div>
-
-
-
     </div>
 </main><br><br>
 <!-- End #main -->

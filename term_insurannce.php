@@ -37,14 +37,14 @@
         <div class="container-fluid" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/term.png" alt="" width="50%">
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
                         <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br> Terms
                                 Insurance</span></h4>
@@ -102,117 +102,151 @@
     <!-- End Breadcrumbs Section -->
     <!--content section-->
 
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Term Insurance is the simplest and most affordable from of life insurance.</b></h4>
+    </div><br>
+    <div style="background: linear-gradient(to right,#edd37b, #ffffff); padding: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="img/term.png" alt="" width="50%">
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>Term plans provide peace of mind to you by ensuring that your family is financially secure
+                            and
+                            independent,
+                            in your absence.</li>
+                        <li>If you are the person insured, you pay a specific premium amount at fixed intervals
+                            during
+                            the policy term.</li>
+                        <li>In the
+                            event of your unfortunate demise during the policy term, your nominees will receive the ‘Sum
+                            Assured’ which
+                            you had selected while purchasing the plan.</li>
+                        <li>TerInsurance is a form of Life Insurance that is active
+                            for a
+                            fixed period of time.</li>
+                        <li>These plans are easy to understand and provide financial protection that your family will
+                            need
+                            if
+                            you are no
+                            longer around.</li>
+                        <li>Life covers with a range of optional benefits to give complete protection to you and
+                            your
+                            family.</li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: linear-gradient(to right,#ffffff, #edd37b); padding: 30px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <ul>
+                        <li>life cover at affordable rates</li>
+                        <li>Get claim payout on first diagnosis of 34 Critical Illness (optional)</li>
+                        <li>Accidental death benefit up to Rs.2 crore (optional)
+                        </li>
+                        <li>In built Terminal Illness cover – you get the full sum assure if you are diagnosed with a
+                            terminal
+                            illness
+                        </li>
+                        <li>In built premium waiver on permanent disability due to accident
+                        </li>
+                        <li>Tax benefits up to Rs. 54,600 under section 80C, 80D & 10(10D)
+                        </li>
+                        <li>Choice of 4 payout options – lump sum, regular income, increasing income and lump sum +
+                            regular
+                            income
+                        </li>
+                        <li>Get covered till the age of 99 years
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-sm-6 text-center"> <img src="img/term.png" alt="" width="60%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div style=" background: linear-gradient(to right, #edd37b, #ffffff); padding: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="img/term.png" alt="" width="100%">
+                </div>
+                <div class="col-sm-6">
+                    <h5><b>5 reasons to buy a Term Insurance Plan</b></h5>
+                    
+                    <ul>High Life Insurance Account
+                        <li>
+                            Term insurance plans provide a high life insurance amount at affordable premiums.
+
+                        </li>
+                    </ul>
+
+                   
+                    <ul>You can also get critical illness cover
+                        <li>
+                            Besides protecting your family in your absence, term life insurance can also provide cover
+                            against
+                            critical illness. By paying an additional premium, you can get a lump sum pay-out on first
+                            diagnosis of
+                            a critical illness like heart attack, cancer, kidney
+                            failure etc…
+
+                        </li>
+                    </ul>
+
+                  
+                    <ul>You can also get Accidental death cover
+                        <li>
+                            You can get an additional protection by attaching accidental death benefit to your term life
+                            insurance
+                            plan. With this benefit, your family will get a larger payout in case of your unfortunate
+                            demise due to
+                            an accident.
+
+                        </li>
+                    </ul>
+
+                   
+                    <ul>Tax benefits
+                        <li>
+                            Term insurance plans offer tax benefits on premium paid under section 80C. Term plans with
+                            critical
+                            illness also offer additional tax benefits on premiums paid under section 80D. You also get
+                            tax benefits
+                            under section 10(10D) on the money that your family
+                            receives in case of an unfortunate event.
+
+                        </li>
+                    </ul>
+
+                  
+                    <ul>Support in case of disability
+                        <li>
+                            In term life insurance plans, the insurance company waives your future premiums in case of
+                            permanent
+                            disability due to an accident. This ensures that the life cover continues, even if you are
+                            unable to pay
+                            the premiums.
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
     <div class="container">
-        <div class="text-center">
-            <h4 class="spanals"><b>Tern Insurance is the simplest and most affordable from of life insurance.</b></h4>
-        </div><br>
-        <div class="row">
-            <div class="col-sm-6">
-            <img src="img/term.png" alt="" width="100%">
-            </div>
-            <div class="col-sm-6">
-                <p>Term plans provide peace of mind to you by ensuring that your family is financially secure and
-                    independent,
-                    in your absence.</p>
-                <p>If you are the person insured, you pay a specific premium amount at fixed intervals
-                    during
-                    the policy term.</p>
-                <p>In the
-                    event of your unfortunate demise during the policy term, your nominees will receive the ‘Sum
-                    Assured’ which
-                    you had selected while purchasing the plan.</p>
-                <p>TerInsurance is a form of Life Insurance that is active
-                    for a
-                    fixed period of time.</p>
-                <p> These plans are easy to understand and provide financial protection that your family will need if
-                    you are no
-                    longer around.</p>
-                <p>Life covers with a range of optional benefits to give complete protection to you and
-                    your
-                    family.</p>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-
-            <div class="col-sm-6">
-                <ul>
-                    <li>life cover at affordable rates</li>
-                    <li>Get claim payout on first diagnosis of 34 Critical Illness (optional)</li>
-                    <li>Accidental death benefit up to Rs.2 crore (optional)
-                    </li>
-                    <li>In built Terminal Illness cover – you get the full sum assure if you are diagnosed with a
-                        terminal
-                        illness
-                    </li>
-                    <li>In built premium waiver on permanent disability due to accident
-                    </li>
-                    <li>Tax benefits up to Rs. 54,600 under section 80C, 80D & 10(10D)
-                    </li>
-                    <li>Choice of 4 payout options – lump sum, regular income, increasing income and lump sum + regular
-                        income
-                    </li>
-                    <li>Get covered till the age of 99 years
-                    </li>
-                </ul>
-                </p>
-            </div>
-            <div class="col-sm-6"> <img src="img/term.png" alt="" width="80%"></div>
-        </div>
-
-        <hr>
-        <h5><b>5 reasons to buy a Term Insurance Plan</b></h5>
-        <p>High Life Insurance Account</p>
-        <ul>
-            <li>
-                Term insurance plans provide a high life insurance amount at affordable premiums.
-
-            </li>
-        </ul>
-
-        <p>You can also get critical illness cover</p>
-        <ul>
-            <li>
-                Besides protecting your family in your absence, term life insurance can also provide cover against
-                critical illness. By paying an additional premium, you can get a lump sum pay-out on first diagnosis of
-                a critical illness like heart attack, cancer, kidney
-                failure etc…
-
-            </li>
-        </ul>
-
-        <p>You can also get Accidental death cover</p>
-        <ul>
-            <li>
-                You can get an additional protection by attaching accidental death benefit to your term life insurance
-                plan. With this benefit, your family will get a larger payout in case of your unfortunate demise due to
-                an accident.
-
-            </li>
-        </ul>
-
-        <p>Tax benefits</p>
-        <ul>
-            <li>
-                Term insurance plans offer tax benefits on premium paid under section 80C. Term plans with critical
-                illness also offer additional tax benefits on premiums paid under section 80D. You also get tax benefits
-                under section 10(10D) on the money that your family
-                receives in case of an unfortunate event.
-
-            </li>
-        </ul>
-
-        <p>Support in case of disability</p>
-        <ul>
-            <li>
-                In term life insurance plans, the insurance company waives your future premiums in case of permanent
-                disability due to an accident. This ensures that the life cover continues, even if you are unable to pay
-                the premiums.
-
-            </li>
-        </ul>
-        <hr>
         <div id="card"
             style=" background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
@@ -269,7 +303,7 @@
         </div>
         <br>
         <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
-        <div style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
+        <div style="background: linear-gradient(to right, #bedbad, #fabfff); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
             data-aos="zoom-out">
             <h5><b>Types of Accidental Insurance Plans</b></h5>
             <p>Individual Accidental Policies:</p>
@@ -292,7 +326,7 @@
 
         <br>
 
-        <div style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
+        <div style="background: linear-gradient(to right, #bedbad, #fabfff); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
             data-aos="zoom-in-right">
             <h5><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h5>
             <p>Inform the insurer about the accident:</p>

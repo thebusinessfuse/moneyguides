@@ -105,54 +105,75 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     <!--content section-->
 
     <div class="container">
-        <div class="text-center"><h4 class="spanals"><b>Business Insurance</b></h4></div>
-       <div class="row">
-           <div class="col-sm-6">
-           <p>Business insurance coverage protects businesses from losses due to events that may occur during the normal
-            course of business. 
-        </p>
-        <p>There are many types of insurance for businesses including coverage for property damage,
+        <div class="text-center">
+            <h4 class="spanals"><b>Business Insurance</b></h4>
+        </div><br>
+
+        <p>Business insurance coverage protects businesses from losses due to events that may occur during the normal
+            course of business. There are many types of insurance for businesses including coverage for property damage,
             legal liability and employee-related
             risks.</p>
 
-           </div>
-           <div class="col-sm-6">
-               <img src="img/business3.png" alt="" width="50%;">
-           </div>
-       </div>
+    </div>
+    <div class="container">
+
         <h4><b>What is Business Insurance?</b></h4>
-        <p>Risk is a part and parcel of a business and is unavoidable. However certain risks which a business faces can
-            be avoided by insuring your business called Business Insurance. You pay a premium and insure your business
-            for a sum of money called
-            Sum Assured. Business insurance covers fire and allied perils, loss of company equipment due to theft, third
-            party liability if your business causes damage to public property and a professional indemnity cover.
-        </p>
-
-        <h4><b>Why Business Insurance?</b></h4>
         <ul>
-            <li>You invest a lot of money in a business. You want to concentrate only on making a profit. You have
-                uncertainty in the business environment which can affect your business. There is nothing you can do
-                about these changes in the business
-                environment. A business also faces risk to its location due to fire, flood or a natural calamity. This
-                is true mainly for a manufacturing unit. Your business might face risk from theft of data by your
-                employees.
-            </li>
-            <li>Maximum sum insured depends upon the insurer. Based on your income, some insurers offer 60-100 times
-                your monthly income. Others offer 8 to 10 times your yearly income as a sum insured.
-
-            </li>
-            <li>You would have to pay a lot of money in compensation to your employees injured on duty.
-
-            </li>
-            <li>The risk due to this uncertainly can be avoided by availing business insurance.
-            </li>
+            <li>Risk is a part and parcel of a business and is unavoidable.</li>
+            <li>However certain risks which a business faces can
+            be avoided by insuring your business called Business Insurance.</li>
+            <li>You pay a premium and insure your business
+            for a sum of money called
+            Sum Assured.</li>
+            <li> Business insurance covers fire and allied perils, loss of company equipment due to theft, third
+            party liability if your business causes damage to public property and a professional indemnity cover.</li>
         </ul>
+     
+    </div>
+    <div style="  background: linear-gradient(to right, #f7f8f8, #acbb78); padding:20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" data-aos="fade-left">
+                    <h4><b>Why Business Insurance?</b></h4>
+                    <ul>
+                        <li>You invest a lot of money in a business. You want to concentrate only on making a profit.
+                            You
+                            have
+                            uncertainty in the business environment which can affect your business. There is nothing you
+                            can
+                            do
+                            about these changes in the business
+                            environment. A business also faces risk to its location due to fire, flood or a natural
+                            calamity. This
+                            is true mainly for a manufacturing unit. Your business might face risk from theft of data by
+                            your
+                            employees.
+                        </li>
+                        <li>Maximum sum insured depends upon the insurer. Based on your income, some insurers offer
+                            60-100
+                            times
+                            your monthly income. Others offer 8 to 10 times your yearly income as a sum insured.
 
-        <hr>
+                        </li>
+                        <li>You would have to pay a lot of money in compensation to your employees injured on duty.
+
+                        </li>
+                        <li>The risk due to this uncertainly can be avoided by availing business insurance.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center" data-aos="fade-up-right">
+                    <img src="img/busines.png" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+    </div><br><br>
 
 
-        <!--=======================Card content==========================-->
 
+
+    <!--=======================Card content==========================-->
+    <div class="container">
         <div id="card"
             style=" background-color: #63d471;
             background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
@@ -226,7 +247,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
         <h4 class="text-center"><b>Types of Business Insurance</b></h4>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -245,7 +266,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -264,7 +285,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -283,7 +304,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingfour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -319,7 +340,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
             </div><br>
 
 
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingfive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -345,7 +366,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                 </div>
             </div><br>
 
-            <div class="accordion-item">
+            <div class="accordion-item"  id="card">
                 <h2 class="accordion-header" id="headingsix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
@@ -395,7 +416,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
             </div>
 
         </div><br>
-       
+
 </main>
 <!-- End #main -->
 
