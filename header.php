@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>Reveal Bootstrap Template</title>
+        <title>moneyguides</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
 
@@ -15,7 +15,7 @@
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
         <!-- Vendor CSS Files -->
         <link href="assets/vendor/aos/aos.css" rel="stylesheet">
