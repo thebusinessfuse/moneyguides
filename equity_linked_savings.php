@@ -13,8 +13,14 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
+
 
 .container {
     padding: 2px 16px;
@@ -43,12 +49,13 @@ background-image: linear-gradient(315deg, #637081 0%, #7c98b3 74%);
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
                     <!-- ======= Contact Section ======= --><br>
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Equity Linked Savings Schemes</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Equity
+                                Linked Savings Schemes</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -70,7 +77,13 @@ background-image: linear-gradient(315deg, #637081 0%, #7c98b3 74%);
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -95,109 +108,137 @@ background-image: linear-gradient(315deg, #637081 0%, #7c98b3 74%);
     </section><br>
 
     <!--content section-->
-    <div class="container">
-        <h4>Equity Linked Savings Schemes</h4>
-        <p>Equity Linked Savings Schemes popularly called ELSS is a type of equity diversified mutual fund, which
-            invests most of your money in stocks. ELSS has a compulsory 3 year lock-in. You cannot touch your money for
-            3 years. ELLS not only helps
-            your money grow, it also helps save tax with ELSS and you enjoy the compounding benefits of return to
-            return. You can invest a lump sum in ELSS or you can invest in ELSS via SIPs (Systematic Investment Plans).
-            SIPs allow you to invest
-            small sums of money regularly, say once a month or quarter, in the ELSS. SIPs help you average purchase
-            costs, bring financial discipline in your life and give you the compounding benefit.</p>
 
-        <div id="card"
-            style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5 class="text-center"><b>Why invest in ELSS?</b></h5>
+    <div class="text-center">
+        <h4 class="spanals ">Equity Linked Savings Schemes</h4>
+    </div>
 
-            <!--================== card here==================-->
-
+    <div style="background: linear-gradient(to right, #c9d6ff, #e2e2e2); padding: 30px;">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
+                <div class="col-sm-6">
+                    <h4>Equity Linked Savings Schemes</h4>
+                    <ul>
+                        <li>Equity Linked Savings Schemes popularly called ELSS is a type of equity diversified mutual
+                            fund, which
+                            invests most of your money in stocks.</li>
+                        <li>ELSS has a compulsory 3 year lock-in. You cannot touch your money for
+                            3 years.</li>
+                        <li> ELLS not only helps
+                            your money grow, it also helps save tax with ELSS and you enjoy the compounding benefits of
+                            return to
+                            return.</li>
+                        <li> You can invest a lump sum in ELSS or you can invest in ELSS via SIPs (Systematic Investment
+                            Plans).</li>
+                        <li>SIPs allow you to invest
+                            small sums of money regularly, say once a month or quarter, in the ELSS. SIPs help you
+                            average purchase
+                            costs, bring financial discipline in your life and give you the compounding benefit.</li>
 
-                        <div class="container"><br>
-                            <h6><b>Invest small amounts</b></h6>
-                            <p>You can invest a small amount of Rs 500 a month via SIPs in an ELSS.</p>
-                        </div>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="about-col">
+                        <img src="img/elss.png" alt="" width="80%">
                     </div>
-                </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="col-sm-3">
-                    <div class="card">
 
-                        <div class="container"><br>
-                            <h6><b>Short lock-in</b></h6>
-                            <p>ELSS has the shortest lock-in period among other tax-saving instruments like PPF, Tax
-                                saver FD, NSC and so on.</p>
-                        </div>
-                    </div>
-                </div><br>
+    <div id="card"
+        style="background: linear-gradient(to right, #ef3b36, #ffffff);  padding: 20px;">
+        <h5 class="text-center"><b>Why invest in ELSS?</b></h5>
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Gives good returns</b></h6>
-                            <p>ELSS has a 3 year lock-in period which forces you to stay invested in equities. Staying
-                                invested in equities for the long term, generally means good returns.</p>
-                        </div>
-                    </div>
-                </div><br>
+        <!--================== card here==================-->
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Tax Benefits</b></h6>
-                            <p>The investments you make are tax-free up to Rs 1.5 lakhs a year under Section 80C.</p>
-                        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="container"><br>
+                        <h6><b>Invest small amounts</b></h6>
+                        <p>You can invest a small amount of Rs 500 a month via SIPs in an ELSS.</p>
                     </div>
                 </div>
             </div><br>
-            <!--==================End card card here==================-->
+
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="container"><br>
+                        <h6><b>Short lock-in</b></h6>
+                        <p>ELSS has the shortest lock-in period among other tax-saving instruments like PPF, Tax
+                            saver FD, NSC and so on.</p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Gives good returns</b></h6>
+                        <p>ELSS has a 3 year lock-in period which forces you to stay invested in equities. Staying
+                            invested in equities for the long term, generally means good returns.</p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Tax Benefits</b></h6>
+                        <p>The investments you make are tax-free up to Rs 1.5 lakhs a year under Section 80C.</p>
+                    </div>
+                </div>
+            </div>
         </div><br>
+        <!--==================End card card here==================-->
+    </div><br>
+<div class="container">
 
+    <h4 class="text-center">Key factors to consider for ELSS</h4>
+    <!--==============first card for content============-->
+    <div style="background: linear-gradient(to right, #aea4bf, #e09fa5, #ffaf7b); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+        id="card">
+        <h5>Factors to consider while investing in ELSS</h5>
+        <ul>
+            <li>Invest in ELSS at the start of the financial year to save tax. Invest in ELSS through SIP.</li>
+            <li>Look for consistency in the ELSS scheme. The ELSS scheme must be a consistent performer for at least
+                3-5 years.</li>
+            <li>Don’t rush to redeem the ELSS after the lock-in period of three years. Stay invested for may be two
+                more years to pocket higher returns.</li>
+            <li>If you invest to too many ELSS schemes, it would be difficult to monitor performance. Stick to an
+                investment in just 2-3 ELSS schemes.</li>
+        </ul>
 
-        <h4 class="text-center">Key factors to consider for ELSS</h4>
-        <!--==============first card for content============-->
-        <div style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
-            id="card">
-            <h5>Factors to consider while investing in ELSS</h5>
-            <ul>
-                <li>Invest in ELSS at the start of the financial year to save tax. Invest in ELSS through SIP.</li>
-                <li>Look for consistency in the ELSS scheme. The ELSS scheme must be a consistent performer for at least
-                    3-5 years.</li>
-                <li>Don’t rush to redeem the ELSS after the lock-in period of three years. Stay invested for may be two
-                    more years to pocket higher returns.</li>
-                <li>If you invest to too many ELSS schemes, it would be difficult to monitor performance. Stick to an
-                    investment in just 2-3 ELSS schemes.</li>
-            </ul>
+    </div><br>
+    <!--==============End first card for content============-->
+    <!--==============first card for content============-->
+    <div style=" background: linear-gradient(to right, #e8bccc, #d98279); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+        id="card">
+        <h5>How to make a claim on a Personal Accidental Insurance Plan?</h5>
+        <p>Inform the insurer about the accident:</p>
+        <ul>
+            <li>
+                The insurer must be informed about the accident as soon as possible. The insurer may also be
+                informed while the insured is on the way to the hospital. In order to show proof that the claim has
+                been filed with the insurer, the policy number or reference
+                number of the insurer should be communicated.
+            </li>
+        </ul>
 
-        </div><br>
-        <!--==============End first card for content============-->
-        <!--==============first card for content============-->
-        <div style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
-            id="card">
-            <h5>How to make a claim on a Personal Accidental Insurance Plan?</h5>
-            <p>Inform the insurer about the accident:</p>
-            <ul>
-                <li>
-                    The insurer must be informed about the accident as soon as possible. The insurer may also be
-                    informed while the insured is on the way to the hospital. In order to show proof that the claim has
-                    been filed with the insurer, the policy number or reference
-                    number of the insurer should be communicated.
-                </li>
-            </ul>
+        <p>Inform the insurer at the time of hospitalization:
 
-            <p>Inform the insurer at the time of hospitalization:
+        </p>
+        <ul>
+            <li>Fill the claim form.</li>
+            <li>Submit the FIR or police report if required.</li>
+        </ul>
 
-            </p>
-            <ul>
-                <li>Fill the claim form.</li>
-                <li>Submit the FIR or police report if required.</li>
-            </ul>
-
-        </div>
-        <!--==============End second card for content============-->
+    </div>
+    <!--==============End second card for content============-->
 
 
 </main><br><br>

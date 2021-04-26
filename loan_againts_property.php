@@ -26,129 +26,164 @@
 
     <!-- End Breadcrumbs Section -->
 
-    
-        <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
+
+    <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);
             ">
-            <!-- ======= How It Works Section ======= -->
+        <!-- ======= How It Works Section ======= -->
 
-            <div class="container" data-aos="fade-up">
-                <div class="row about-cols">
+        <div class="container" data-aos="fade-up">
+            <div class="row about-cols">
 
-                    <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="about-col">
-                            <img src="img/property.png" alt="" width="100%">
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <!-- ======= Contact Section ======= --><br>
-                        <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                            <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Loan against property</span></h4>
-
-                            <div class="container" data-aos="fade-up">
-                                <div class="container">
-                                    <div class="form">
-                                        <form action="forms/contact.php" method="post" role="form"
-                                            class="php-email-form">
-                                            <div class="row">
-                                                <div class="form-group col-md-6">
-
-                                                    <input type="text" name="name"
-                                                        class="rounded border-secondary form-control" id="name"
-                                                        placeholder="Your Name" required>
-                                                </div>
-                                                <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                    <input type="email" class="form-control rounded border-secondary"
-                                                        name="email" id="email" placeholder="Your Email" required>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group mt-3">
-                                                <input type="tel" class="form-control rounded border-secondary"
-                                                    name="message" placeholder="Phone Number" required></input>
-                                            </div>
-                                            <div class="form-group mt-3">
-                                                <textarea class="form-control rounded border-secondary" rows="2"
-                                                    id="comment" placeholder="Massage"></textarea>
-                                            </div>
-
-                                            <div class="my-3">
-                                                <div class="loading">Loading</div>
-                                                <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                                            </div>
-
-                                            <div class="text-center"><button type="submit">Send Message</button></div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                        </section>
-                        <!-- End Contact Section -->
-
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-col">
+                        <img src="img/property.png" alt="" width="100%">
                     </div>
                 </div>
+                <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======= Contact Section ======= -->
+                    <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Loan
+                                against property</span></h4>
 
+                        <div class="container" data-aos="fade-up">
+                            <div class="container">
+                                <div class="form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
+                                            </div>
+                                            <div class="form-group col-md-6 mt-3 mt-md-0">
+                                                <input type="email" class="form-control rounded border-secondary"
+                                                    name="email" id="email" placeholder="Your Email" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mt-3">
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
+                                        </div>
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
+                                        <div class="my-3">
+                                            <div class="loading">Loading</div>
+                                            <div class="error-message"></div>
+                                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        </div>
+
+                                        <div class="text-center"><button type="submit">Send Message</button></div>
+                                    </form>
+                                </div>
+
+                            </div>
+                    </section>
+                    <!-- End Contact Section -->
+
+                </div>
             </div>
-            <!-- card for test -->
+
         </div>
+        <!-- card for test -->
+    </div>
     </section><br>
     <!--content section-->
-    <div class="container">
-        <h4>Loan against property</h4>
-        <p>The bank allows you to avail a loan against property (on your house), as this is a secured loan (your
-            house/property is the collateral) The bank has a due diligence process (the bank appraises your
-            house/property and assesses its value). You
-            are sanctioned a loan up to 60-70% of the value of your property. The bank charges you an interest of around
-            12-16% for a loan against property. This is much less than the interest rates charged for a personal loan.
-            The tenure of the loan
-            against property is around 10 years. You can mortgage a self-occupied property or a piece of land that you
-            own. The property must be free from mortgage or any kind of litigation. You can avail a loan against
-            property only if the property
-            title is clear. As loan against property (LAP) has long repayment tenure, many citizens who need money avail
-            this loan, as it doesn’t pose much of a burden. Loan against property offers flexible repayment and low
-            interest rates.
 
+    <div class="text-center">
+        <h4 class="spanals"><b>Loan against property</b></h4>
+    </div>
 
-        </p>
+    <div style=" background: linear-gradient(to right, #a8ddff, #6dd5fa, #ffffff); padding: 30px;">
+        <div class="container">
+            <div class="row">
 
-
-
-        <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>
-                Loan against property has several benefits:
-
-
-            </h5>
-
-            <ul>
-                <li>
-                    Loan against property can be used to expand your business.
-
-                </li>
-                <li>
-                    This loan can be used for an urgent medical emergency. </li>
-                <li>
-                    Driving License
-
-                </li>
-                <li>
-                    Loan against property can be used to renovate/expand or repair house or property.
-
-                </li>
-                <li>
-                    Loan against property can be taken to send your child abroad for higher education.
-
-                </li>
-
-            </ul>
+                <div class="col-sm-6" data-aos="fade-right">
+                    <h4><b>Loan against property</b></h4>
+                    <ul>
+                        <li>The bank allows you to avail a loan against property (on your house), as this is a
+                            secured loan (your
+                            house/property is the collateral) The bank has a due diligence process (the bank
+                            appraises your
+                            house/property and assesses its value).</li>
+                        <li>You
+                            are sanctioned a loan up to 60-70% of the value of your property.</li>
+                        <li> The bank charges you an interest of around
+                            12-16% for a loan against property.</li>
+                        <li>This is much less than the interest rates charged for a personal loan.</li>
+                        <li>The tenure of the loan
+                            against property is around 10 years.</li>
+                        <li>You can mortgage a self-occupied property or a piece of land that you
+                            own.</li>
+                        <li>The property must be free from mortgage or any kind of litigation.</li>
+                        <li>You can avail a loan against
+                            property only if the property
+                            title is clear.</li>
+                        <li> As loan against property (LAP) has long repayment tenure, many citizens who need money
+                            avail
+                            this loan, as it doesn’t pose much of a burden. Loan against property offers flexible
+                            repayment and low
+                            interest rates.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center" data-aos="fade-right">
+                <img src="img/property.png" alt="" width="100%">
+                </div>
+            </div>
         </div>
-        <br>
+    </div>
+
+
+    <div style=" background: linear-gradient(to right, #a8ddff, #ffffff, #2980b9); padding: 30px;">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6 text-center" data-aos="fade-up-right">
+                <img src="img/property.png" alt="" width="60%">
+                </div>
+                <div class="col-sm-6" data-aos="fade-up-left">
+                    <h5>
+                        <b>Loan against property has several benefits:</b>
+                    </h5>
+
+                    <ul>
+                        <li>
+                            Loan against property can be used to expand your business.
+
+                        </li>
+                        <li>
+                            This loan can be used for an urgent medical emergency. </li>
+                        <li>
+                            Driving License
+
+                        </li>
+                        <li>
+                            Loan against property can be used to renovate/expand or repair house or property.
+
+                        </li>
+                        <li>
+                            Loan against property can be taken to send your child abroad for higher education.
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="container">
         <!--==============End first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #86a8e7, #91eae4); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-left">
             <h5>Loan against property eligibility criteria</h5>
             <ul>
                 <li>The title of the property needs to be clear and marketable. Your bank lends an amount equal to about

@@ -39,7 +39,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/busines.png" alt="" width="50%">
                     </div>
@@ -59,24 +59,31 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
-                                                <input type="text" name="name" class="rounded border-dark form-control"
-                                                    id="name" placeholder="Your Name" required>
+                                                <input type="text" name="name"
+                                                    class="rounded border-secondary form-control" id="name"
+                                                    placeholder="Your Name" required>
                                             </div>
                                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                                <input type="email" class="form-control rounded border-dark"
+                                                <input type="email" class="form-control rounded border-secondary"
                                                     name="email" id="email" placeholder="Your Email" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group mt-3">
-                                            <input type="tel" class="form-control rounded border-dark" name="message"
-                                                placeholder="Phone Number" required></input>
+                                            <input type="tel" class="form-control rounded border-secondary"
+                                                name="message" placeholder="Phone Number" required></input>
                                         </div>
                                         <div class="form-group mt-3">
-                                            <textarea class="form-control rounded border-dark" rows="2" id="comment"
-                                                placeholder="Massage"></textarea>
+                                            <textarea class="form-control rounded border-secondary" rows="2"
+                                                id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -108,28 +115,42 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         <div class="text-center">
             <h4 class="spanals"><b>Business Insurance</b></h4>
         </div><br>
-
-        <p>Business insurance coverage protects businesses from losses due to events that may occur during the normal
-            course of business. There are many types of insurance for businesses including coverage for property damage,
-            legal liability and employee-related
-            risks.</p>
-
     </div>
-    <div class="container">
 
-        <h4><b>What is Business Insurance?</b></h4>
-        <ul>
-            <li>Risk is a part and parcel of a business and is unavoidable.</li>
-            <li>However certain risks which a business faces can
-            be avoided by insuring your business called Business Insurance.</li>
-            <li>You pay a premium and insure your business
-            for a sum of money called
-            Sum Assured.</li>
-            <li> Business insurance covers fire and allied perils, loss of company equipment due to theft, third
-            party liability if your business causes damage to public property and a professional indemnity cover.</li>
-        </ul>
-     
+    <div style="  background: linear-gradient(to right, #adc9c2, #99f2c8); padding: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" data-aos="zoom-in-up">
+                    <h4><b>What is Business Insurance?</b></h4>
+                    <p>Business insurance coverage protects businesses from losses due to events that may occur during
+                        the normal
+                        course of business. There are many types of insurance for businesses including coverage for
+                        property damage,
+                        legal liability and employee-related
+                        risks.
+                    </p>
+                    <ul>
+                        <li>Risk is a part and parcel of a business and is unavoidable.</li>
+                        <li>However certain risks which a business faces can
+                            be avoided by insuring your business called Business Insurance.</li>
+                        <li>You pay a premium and insure your business
+                            for a sum of money called
+                            Sum Assured.</li>
+                        <li> Business insurance covers fire and allied perils, loss of company equipment due to theft,
+                            third
+                            party liability if your business causes damage to public property and a professional
+                            indemnity cover.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center" data-aos="zoom-in">
+                    <img src="img/busines.png" alt="" width="50%">
+                </div>
+            </div>
+        </div>
     </div>
+
+
     <div style="  background: linear-gradient(to right, #f7f8f8, #acbb78); padding:20px;">
         <div class="container">
             <div class="row">
@@ -153,10 +174,8 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                             60-100
                             times
                             your monthly income. Others offer 8 to 10 times your yearly income as a sum insured.
-
                         </li>
                         <li>You would have to pay a lot of money in compensation to your employees injured on duty.
-
                         </li>
                         <li>The risk due to this uncertainly can be avoided by availing business insurance.
                         </li>
@@ -168,8 +187,6 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
             </div>
         </div>
     </div><br><br>
-
-
 
 
     <!--=======================Card content==========================-->
@@ -247,7 +264,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
         <h4 class="text-center"><b>Types of Business Insurance</b></h4>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -266,7 +283,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -285,7 +302,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                     </div>
                 </div>
             </div><br>
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -304,7 +321,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                 </div>
             </div><br>
 
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -340,7 +357,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
             </div><br>
 
 
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingfive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -366,7 +383,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
                 </div>
             </div><br>
 
-            <div class="accordion-item"  id="card">
+            <div class="accordion-item" id="card">
                 <h2 class="accordion-header" id="headingsix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">

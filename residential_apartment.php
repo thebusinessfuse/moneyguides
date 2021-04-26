@@ -13,8 +13,10 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
+
 
 .container {
     padding: 2px 16px;
@@ -29,25 +31,29 @@
     <!-- End Breadcrumbs Section -->
 
 
-    <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
-            background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);
+    <div class="container-fluid" id="card" style="padding: 25px; background: linear-gradient(to right, #ffafbd, #ffc3a0); 
             ">
         <!-- ======= How It Works Section ======= -->
 
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/apartment.png" alt="" width="100%">
-                        <h1 style="color:white; font-style: italic;"><b>Residential apartment</b></h1>
+                        <img src="img/apartment.png" alt="" width="80%">
+
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Residential apartment</span></h4>
+                        <h4 style="font-weight: bold;">
+                            <span style="color: black;">
+                                Get The Right Advice
+                                on<br>Residential apartment
+                            </span>
+                        </h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
@@ -74,7 +80,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -99,31 +111,32 @@
     </section><br>
 
     <!--content section-->
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Residential apartment</b></h4>
+    </div>
+
+    <div style="  background: linear-gradient(to right, #faa09b, #ff9068); padding: 30px;" data-aos="fade-down-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h6><b>What is Residential apartment</b></h6>
+                    <p>You purchase a residential apartment commonly called a flat as a place to reside/stay. </p>
+                    <h6><b>How do you pay for your residential apartment? </b></h6>
+                    <ul>If you are purchasing an under construction flat check for the:
+                        <li>Down Payment</li>
+                        <li>Construction linked costs</li>
+                        <li>Flexi payment options</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="img/apartment.png" alt="" width="70%">
+                </div>
+            </div>
+        </div>
+    </div><br>
+
     <div class="container">
-        <h4>Residential apartment</h4>
-        <p>You purchase a residential apartment commonly called a flat as a place to reside/stay. </p>
-
-        <h5>How do you pay for your residential apartment? </h5>
-        <p>If you are purchasing an under construction flat check for the:</p>
-        <ul>
-            <li>Down Payment</li>
-            <li>Construction linked costs</li>
-            <li>Flexi payment options</li>
-        </ul>
-        <h5>Features of Accidental Insurance Plan</h5>
-        <p>You have to pay around 10-15% of the cost of the apartment at the time of the purchase. This is the down
-            payment for the apartment. Builders ask you to make a down payment at the time of booking of the apartment
-            (10-15% of the cost) and another
-            (70-75%) within a couple of months after booking the apartment. You make the remaining payment at the time
-            you take possession of the flat. This is a highly risky method of making the payments, as you are stuck if
-            the builder delays the
-            construction of your apartment. You could opt for a construction linked plan where you pay 10-15% of the
-            amount as a down payment and the rest of the payments are made as each level of construction is complete.
-            You could opt for the flexi
-            plan where 30-40% of the payments are made as a down payment and the rest as each stage of construction is
-            completed.
-
-        </p>
         <div id="card"
             style="background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
@@ -172,44 +185,75 @@
                 </div>
             </div>
             <!--==================End card plze card here==================-->
-        </div><br>
-        <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        </div>
+    </div><br>
+    <div style="background: linear-gradient(to right, #fcccd5, #ffc3a0);  padding: 30px;" data-aos="flip-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
 
-            <h4>Things to remember while purchasing an apartment</h4>
-            <h5>Check the title of the land </h5>
-            <ul>
-                <li>The builder needs to have the title deed showing the ownership of the land. The title of the
-                    property needs to be clear and marketable. The builder then needs to get approvals from the
-                    municipal and other authorities.
-                </li>
+                    <h5><b>Things to remember while purchasing an apartment</b></h5>
+                    <h6><b>Check the title of the land </b></h6>
+                    <ul>
+                        <li>The builder needs to have the title deed showing the ownership of the land. The title of the
+                            property needs to be clear and marketable. The builder then needs to get approvals from the
+                            municipal and other authorities.
+                        </li>
 
-                <li><b>Group Accident Policies: </b>A the term itself suggests, a Group Accident Policy is not meant for
-                    individuals. It is taken by employers for their employees. Depending on the group size, discount on
-                    premium may be offered. It is
-                    a good value added benefit for small organizations and is available at a low cost. However, this is
-                    very basic cover and may not offer benefits like that of individual accidental insurance plan.</li>
+                        <li><b>Group Accident Policies: </b>A the term itself suggests, a Group Accident Policy is not
+                            meant for
+                            individuals. It is taken by employers for their employees. Depending on the group size,
+                            discount on
+                            premium may be offered. It is
+                            a good value added benefit for small organizations and is available at a low cost. However,
+                            this is
+                            very basic cover and may not offer benefits like that of individual accidental insurance
+                            plan.</li>
 
-                <h5>How to make a claim on a Personal Accidental Insurance Plan?</h5>
-                <li><b>Inform the insurer about the accident:</b> The insurer must be informed about the accident as
-                    soon as possible. The insurer may also be informed while the insured is on the way to the hospital.
-                    In order to show proof that the claim
-                    has been filed with the insurer, the policy number or reference number of the insurer should be
-                    communicated.</li>
+                        <h5>How to make a claim on a Personal Accidental Insurance Plan?</h5>
+                        <li><b>Inform the insurer about the accident:</b> The insurer must be informed about the
+                            accident as
+                            soon as possible. The insurer may also be informed while the insured is on the way to the
+                            hospital.
+                            In order to show proof that the claim
+                            has been filed with the insurer, the policy number or reference number of the insurer should
+                            be
+                            communicated.</li>
 
-                <li><b>Inform the insurer at the time of hospitalization:</b> Fill the claim form.
-                </li>
-                <li>Submit the FIR or police report if required.
-                </li>
-            </ul>
+                        <li><b>Inform the insurer at the time of hospitalization:</b> Fill the claim form.
+                        </li>
+                        <li>Submit the FIR or police report if required.
+                        </li>
+                    </ul>
 
-        </div><br>
-
-
-
-
-
+                </div>
+                <div class="col-sm-6">
+                    <h5><b>Features of Accidental Insurance Plan</b></h5>
+                    <ul>
+                        <li>You have to pay around 10-15% of the cost of the apartment at the time of the purchase.
+                        </li>
+                        <li>This is the down
+                            payment for the apartment.</li>
+                        <li>Builders ask you to make a down payment at the time of booking of the apartment
+                            (10-15% of the cost) and another
+                            (70-75%) within a couple of months after booking the apartment.</li>
+                        <li>You make the remaining payment at the time
+                            you take possession of the flat.</li>
+                        <li>This is a highly risky method of making the payments, as you are stuck if
+                            the builder delays the
+                            construction of your apartment.</li>
+                        <li>You could opt for a construction linked plan where you pay 10-15% of the
+                            amount as a down payment and the rest of the payments are made as each level of
+                            construction is complete.</li>
+                        <li> You could opt for the flexi
+                            plan where 30-40% of the payments are made as a down payment and the rest as each stage
+                            of construction is
+                            completed.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-</main><br><br>
+</main>
 <!-- End #main -->
 <?php include 'footer.php'; ?>

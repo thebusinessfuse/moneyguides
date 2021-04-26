@@ -52,7 +52,7 @@
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -74,7 +74,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -109,10 +115,11 @@
     <div style="background: linear-gradient(to right,#edd37b, #ffffff); padding: 30px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center" data-aos="zoom-in-up">
                     <img src="img/term.png" alt="" width="50%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="zoom-in">
+                <h5><b>Term Insurance is the simplest and most affordable from of life insurance.</b></h5>
                     <ul>
                         <li>Term plans provide peace of mind to you by ensuring that your family is financially secure
                             and
@@ -133,12 +140,8 @@
                             if
                             you are no
                             longer around.</li>
-                        <li>Life covers with a range of optional benefits to give complete protection to you and
-                            your
-                            family.</li>
-
+                        <li>Life covers with a range of optional benefits to give complete protection to you and your family.</li>
                     </ul>
-
                 </div>
             </div>
         </div>
@@ -147,8 +150,7 @@
     <div style="background: linear-gradient(to right,#ffffff, #edd37b); padding: 30px;">
         <div class="container">
             <div class="row">
-
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="zoom-in-down">
                     <ul>
                         <li>life cover at affordable rates</li>
                         <li>Get claim payout on first diagnosis of 34 Critical Illness (optional)</li>
@@ -171,7 +173,7 @@
                     </ul>
                     </p>
                 </div>
-                <div class="col-sm-6 text-center"> <img src="img/term.png" alt="" width="60%"></div>
+                <div class="col-sm-6 text-center" data-aos="zoom-in-left"> <img src="img/term.png" alt="" width="60%"></div>
             </div>
         </div>
     </div>
@@ -179,10 +181,10 @@
     <div style=" background: linear-gradient(to right, #edd37b, #ffffff); padding: 20px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center" data-aos="zoom-in-right">
                     <img src="img/term.png" alt="" width="100%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="zoom-out">
                     <h5><b>5 reasons to buy a Term Insurance Plan</b></h5>
                     
                     <ul>High Life Insurance Account

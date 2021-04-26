@@ -40,7 +40,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="https://www.bajajallianz.com/content/dam/bagic/car-insurance/car-insurance.png" alt=""
                             width="70%">
@@ -56,7 +56,7 @@
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -78,7 +78,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -106,11 +112,11 @@
 
 
     <!--content section-->
-
-    <div class="container">
-        <div class="text-center">
+    <div class="text-center">
             <h4 class="spanals"><b>Accidental Insurance Plan</b></h4>
         </div><br>
+    <div style=" background: linear-gradient(to right, #76b852, #8dc26f); padding:30px;" data-aos="fade-right">
+        
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -146,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div style="padding: 15px;    background: linear-gradient(to right, #f7f8f8, #acbb78); ">
+    <div style="padding: 15px;    background: linear-gradient(to right, #f7f8f8, #acbb78);"  data-aos="fade-up">
 
         <div class="container">
             <h4><b>What is Accidental Insurance Plan?</b></h4>
@@ -187,7 +193,7 @@
     </div><br><br>
 
     <div class="container">
-        <div>
+        <div style="background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); padding: 30px;">
             <div class="row">
                 <div class="col-sm-6 text-center">
                     <img src="https://www.bajajallianz.com/content/dam/bagic/car-insurance/car-insurance.png" alt=""
@@ -238,13 +244,9 @@
                     </ul>
                 </div>
             </div>
-
-
         </div>
-
-    </div>
-    <div class="container">
-
+    </div><br>
+    <div class="container" data-aos="flip-up">
         <div id="card"
             style=" background-color: #63d471;
             background-image: linear-gradient(315deg, #7dac82 0%, #5c6f8d 74%); padding: 25px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
@@ -307,7 +309,7 @@
         <h4 class="text-center"><b>Key factors to consider for Accidental Insurance</b></h4>
         <div id="card"
             style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px; background-color: #63d471;
-            background-image: linear-gradient(315deg, #7daff2 0%, #fffff5 74%); padding: 25px; border: 1px solid rgb(219, 209, 209);">
+            background-image: linear-gradient(315deg, #7daff2 0%, #fffff5 74%); padding: 25px; border: 1px solid rgb(219, 209, 209);" data-aos="flip-right">
             <h5><b>Types of Accidental Insurance Plans</b></h5>
             <h6><b>Individual Accidental Policies:</b></h6>
             <ul>
@@ -330,7 +332,7 @@
         <h4 class="text-center"><b>How to make a claim on a Personal Accidental Insurance Plan?</b></h4>
         <div id="card"
             style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;
-            background-image: linear-gradient(315deg, #ffffac 0%, #bbbbbb 74%); padding: 25px; border: 1px solid rgb(219, 209, 209);">
+            background-image: linear-gradient(315deg, #ffffac 0%, #bbbbbb 74%); padding: 25px; border: 1px solid rgb(219, 209, 209);" data-aos="flip-down">
 
             <h5><b>Inform the insurer about the accident:</b></h5>
             <ul>

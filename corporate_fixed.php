@@ -13,7 +13,8 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
 
 .container {
@@ -22,31 +23,26 @@
 </style>
 <?php include 'header.php'; ?>
 <main id="main">
-
     <!-- <section class="inner-page"> -->
     <div class="container-fluid" id="card" style="padding: 25px; background-color: #63d471;
-            background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);
-            ">
+            background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%);">
         <!-- ======= How It Works Section ======= -->
 
         <div class="container-fluid" data-aos="fade-up">
             <div class="row about-cols">
-
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/corporate.png" alt="" width="90%">
-
+                        <img src="img/corporate.png" alt="" width="60%">
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
                         <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Corporate Fixed Deposit</span></h4>
-
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -68,7 +64,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -95,7 +97,7 @@
     <!--content section-->
 
     <div class="container">
-        <h4>Corporate Fixed Deposit</h4>
+       <div class="text-center"><h4 class="spanals">Corporate Fixed Deposit</h4></div>
         <p>You can make a deposit with a company in a similar way to a bank fixed deposit. The company pays a slightly
             higher rate of interest on deposits made with them, then a bank fixed deposit for a fixed time period.
 
@@ -164,13 +166,12 @@
         </div><br>
         <!--==================End card plze card here==================-->
 
-
         <h5>Eligibility for Corporate Fixed Deposit</h5>
         <p>If you are a resident of India or an NRI, you can invest in a corporate fixed deposit. Senior citizens,
             housewives, charitable and religious institutions invest in a corporate fixed deposit.</p>
 
         <!--==============first card for content============-->
-        <div style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+        <div style="  background: linear-gradient(to right, #e4e1f5, #c1dbe6, #a5fecb); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="flip-down"
             id="card">
             <h5>How liquid are corporate fixed deposits?</h5>
             <ul>
@@ -187,10 +188,13 @@
         </div><br>
         <!--==============End first card for content============-->
         <!--==============second card for content============-->
-        <div style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
-            id="card">
-            <h5>How do you make sure your money invested in the corporate fixed deposit is safe?</h5>
-            <ul>
+    
+        <div style="background: linear-gradient(to right, #dad299, #b0dab9); padding: 40px;" data-aos="flip-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4><b>How do you make sure your money invested in the corporate fixed deposit is safe?</b></h4>
+                    <ul>
                 <li>You need to check the credit rating of the corporate fixed deposits before investing your hard
                     earned money with them.
                 </li>
@@ -211,11 +215,19 @@
                 </li>
             </ul>
 
-        </div><br>
+                </div>
+                <div class="col-sm-6 text-center">
+                <div class="about-col">
+                        <img src="img/corporate.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
         <!--==============End second card for content============-->
 
         <!--==============THIERD card for content============-->
-        <div style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+        <div style=" background: linear-gradient(to right, #acb6e5, #86fde8); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" data-aos="flip-right"
             id="card">
             <h5>How to apply?</h5>
             <ul>

@@ -40,7 +40,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/mutual.png" alt="" width="55%">
                     </div>
@@ -55,7 +55,7 @@
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -77,7 +77,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -109,7 +115,7 @@
     <div style="background: linear-gradient(to right, #f5cece, #ffc371); padding: 30px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-right">
                     <h4><b>What is Mutual Fund</b></h4>
                     <ul>
                         <li>A mutual fund pools your money along with that of several other investors and invests
@@ -136,7 +142,7 @@
                             exit load.</li>
                     </ul>
                 </div>
-                <div class="col-sm-6 text-center"> <img src="img/mutual.png" alt="" width="55%"></div>
+                <div class="col-sm-6 text-center" data-aos="fade-left"> <img src="img/mutual.png" alt="" width="55%"></div>
             </div>
         </div>
     </div>
@@ -146,10 +152,10 @@
     <div style=" background: linear-gradient(to right, #ffc371, #f5cece);  padding: 30px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center" data-aos="fade-up-right">
                     <img src="img/mutual.png" alt="" width="55%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up-left">
                     <h4><b>How do mutual funds work?</b></h4>
                     <ul>
                         <li>A mutual fund is a company that pools several investors’ money and invests this money,
@@ -245,7 +251,7 @@
 
 
         <!--==============first card for content============-->
-        <div style="background: linear-gradient(to right, #ccd7e6, #dfe8e8); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #ccd7e6, #dfe8e8); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-down">
 
             <h4 class="text-center"><b>Mutual funds in India can be open ended or close ended</b></h4>
             <p>Open ended schemes: They don’t have a fixed maturity date. Investors can buy and sell units of mutual

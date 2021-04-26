@@ -37,7 +37,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/life_inc.png" alt="" width="50%">
                     </div>
@@ -53,7 +53,7 @@
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -75,7 +75,13 @@
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -108,7 +114,7 @@
         <div class="container">
             <h4><b>What is Life Insurance</b></h4>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up">
                     <p>Life Insurance is an agreement or a long-term contract between the life insurer and the
                         policyholder.
                     <p>It
@@ -127,8 +133,8 @@
                         financially. You enjoy peace of mind knowing your family is secure.</p>
                     </p>
                 </div>
-                <div class="col-sm-6 text-center">
-                    <img src="img/life_inc.png" alt="" width="60%">
+                <div class="col-sm-6 text-center" data-aos="fade-down">
+                    <img src="img/life_inc.png" alt="" width="80%">
                 </div>
             </div>
         </div>
@@ -137,10 +143,10 @@
     <div style=" background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); padding:20px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 text-center">
-                    <img src="img/life_inc.png" alt="">
+                <div class="col-sm-6 text-center" data-aos="fade-left">
+                    <img src="img/life_inc.png" alt="" width="80%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-right">
                     <h5><b>Why Life Insurance?</b></h5>
                     <p>Your family enjoys financial security in your absence. Your wife gets the money to meet daily
                         expenses
@@ -181,7 +187,7 @@
         </div>
     </div>
     <br>
-    <div class="container">
+    <div class="container" data-aos="zoom-in-left">
 
         <div id="card"
             style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;
@@ -230,7 +236,7 @@
     <div style="  background: linear-gradient(to right, #e0eafc, #cfdef3); padding: 20px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up-right">
                     <h5><b>Types of bonuses under Life Insurance</b></h5>
                     <p>Guaranteed Bonus:</p>
                     <p>Guaranteed bonus is paid as a percentage of the sum assured. It’s paid for the first few years of
@@ -248,7 +254,7 @@
                         only on participating policies.
                     </p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up-left">
                     <h5><b>What is surrender of a Life Insurance Plan?</b></h5>
                     <p>If you surrender the Life Insurance Plan before the full term of the plan is completed, you get a
                         portion
@@ -270,7 +276,7 @@
         </div>
     </div>
     <br>
-    <div class="container">
+    <div class="container" data-aos="zoom-in-down">
         <div id="card"
             style="padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;
             background-image: linear-gradient(315deg, #ffffac 0%, #bbbbbb 74%); padding: 25px; border: 1px solid rgb(219, 209, 209);">
@@ -319,7 +325,7 @@
     <div style="  background: linear-gradient(to right, #abbaab, #ffffff); padding: 20px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up-left">
                     <h5><b>Types of Life Insurance Plans</b></h5>
                     <h6><b>Term Life Insurance</b></h6>
                     <p>Term Life Insurance is pure risk cover. You pay a premium for a sum assured (This is specific
@@ -352,9 +358,9 @@
                     </ul>
 
                 </div>
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-6 text-center" data-aos="fade-up-right">
 
-                    <img src="img/life_inc.png" alt="" width="80%">
+                    <img src="img/life_inc.png" alt="" width="100%">
 
                 </div>
             </div>

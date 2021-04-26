@@ -12,9 +12,7 @@
     border-radius: 5px;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+.card:hover { box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2); transform: scale(1.1); }
 
 .container {
     padding: 2px 16px;
@@ -35,23 +33,23 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <img src="img/commercial.png" alt="" width="100%">
-                        <img src="img/commercials.png" alt="" width="100%">
+                        <!-- <img src="img/commercials.png" alt="" width="100%"> -->
 
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Car loan</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Commercial Vehicle Loan</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -73,7 +71,13 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -98,93 +102,137 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
 
 
 
-
+    <div class="text-center">
+        <h4 class="spanals">Commercial Vehicle Loan</h4>
+    </div>
     <!--content section-->
-    <div class="container">
-        <h4>Commercial Vehicle Loan</h4>
-        <p>You can avail a loan to purchase vehicles such as trucks, buses used for commercial purposes. Normally you
-            will have to pay 20% of the cost of the vehicle up front; the remaining is financed by the bank.
-        </p>
-        <hr>
-        <h4>What is Commercial Vehicle Loan?
-        </h4>
-        <ul>
-            <li>Commercial vehicles like buses and trucks are very important to a transport business. They contribute to
-                productivity and generate income. Banks grant Commercial Vehicle Loans to businessmen to buy commercial
-                vehicles. This is a secured
-                loan. Commercial vehicle loans are availed by individuals, partnership firms, HUF (Hindu Undivided
-                Families) for financing the needs of owning and running commercial vehicles. Commercial loans are used
-                in the transportation business.
-                These loans fund trucks, tippers, buses, light commercial vehicles, three wheelers and so on. Normally
-                you pay 20% of the cost of the vehicle up front: and the remaining amount is financed by the bank.
-            </li>
-        </ul>
-        <hr>
-        <h5>Features of a Commercial Vehicle Loan</h5>
-        <ul>
-            <li>If a borrowers profile matches the bank’s criteria, they can get a Commercial Vehicle Loan at lower
-                rates.</li>
-            <li>Processing time of a Commercial Vehicle Loan is quite fast.</li>
-            <li>Commercial Vehicle Loan has easy documentation and approval.</li>
-            <li>It takes around 7 days to disburse the loan amounts. </li>
-            <li>Banks charge around 2% penalty if borrowers prepay their loans.</li>
-        </ul>
 
-
-        <div id="card"
-            style="background-color: #63d471;
-            background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-
-            <!--==================card plze card here==================-->
-            <h5 class="text-center text-white"><b>Why avail Commercial Vehicle Loan?</b></h5>
+    <div style="background: linear-gradient(to right, #d3e0ad, #acbb78); padding: 30px;">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
+                <div class="col-sm-6" data-aos="flip-left">
+                    <p>You can avail a loan to purchase vehicles such as trucks, buses used for commercial purposes.
+                        Normally you
+                        will have to pay 20% of the cost of the vehicle up front; the remaining is financed by the
+                        bank.
+                    </p>
+                    <hr>
+                    <h4>What is Commercial Vehicle Loan?
+                    </h4>
+                    <ul>
+                        <li>Commercial vehicles like buses and trucks are very important to a transport business.
 
-                        <div class="container"><br>
-                            <h6><b>Buy truckst</b></h6>
-                            <p>Borrowers use this money for their transportation business. Used to finance trucks,
-                                buses, tippers and commercial vehicles.</p>
-                        </div>
+                        </li>
+                        <li>They contribute to
+                            productivity and generate income. </li>
+                        <li>Banks grant Commercial Vehicle Loans to businessmen to buy commercial
+                            vehicles.</li>
+                        <li>This is a secured
+                            loan.</li>
+                        <li> Commercial vehicle loans are availed by individuals, partnership firms, HUF (Hindu
+                            Undivided
+                            Families) for financing the needs of owning and running commercial vehicles.</li>
+                        <li> Commercial loans are used
+                            in the transportation business.</li>
+                        <li>These loans fund trucks, tippers, buses, light commercial vehicles, three wheelers and
+                            so on.</li>
+                        <li> Normally
+                            you pay 20% of the cost of the vehicle up front: and the remaining amount is financed by
+                            the bank.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="about-col" data-aos="flip-right">
+                        <img src="img/commercial.png" alt="" width="100%">
+                        <!-- <img src="img/commercials.png" alt="" width="100%"> -->
+
                     </div>
-                </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background: linear-gradient(to right, #799f0c, #acbb78); padding: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="about-col">
+                   
+                        <img src="img/commercials.png" alt="" width="100%">
 
-                <div class="col-sm-3">
-                    <div class="card">
-
-                        <div class="container"><br>
-                            <h6><b>High margin</b></h6>
-                            <p>You get funding even up to 90% of the chassis and 100% in some cases. Down payment is
-                                very low. </p>
-                        </div>
                     </div>
-                </div><br>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Features of a Commercial Vehicle Loan</h5>
+                    <ul>
+                        <li>If a borrowers profile matches the bank’s criteria, they can get a Commercial Vehicle Loan
+                            at lower
+                            rates.</li>
+                        <li>Processing time of a Commercial Vehicle Loan is quite fast.</li>
+                        <li>Commercial Vehicle Loan has easy documentation and approval.</li>
+                        <li>It takes around 7 days to disburse the loan amounts. </li>
+                        <li>Banks charge around 2% penalty if borrowers prepay their loans.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Special Benefits</b></h6>
-                            <p>Customized finance solutions to meet individual needs of the borrowers. Finance available
-                                for used vehicles.</p>
-                        </div>
-                    </div>
-                </div><br>
 
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="container"><br>
-                            <h6><b>Documentation</b></h6>
-                            <p>Hassle free documentation. Loan processing is quick.</p>
-                        </div>
+
+
+    <div id="card" style="background-color: #63d471;
+            background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%); padding: 20px;">
+
+        <!--==================card plze card here==================-->
+        <h5 class="text-center text-white"><b>Why avail Commercial Vehicle Loan?</b></h5>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="container"><br>
+                        <h6><b>Buy truckst</b></h6>
+                        <p>Borrowers use this money for their transportation business. Used to finance trucks,
+                            buses, tippers and commercial vehicles.</p>
                     </div>
                 </div>
             </div><br>
-            <!--==================End card here==================-->
+
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="container"><br>
+                        <h6><b>High margin</b></h6>
+                        <p>You get funding even up to 90% of the chassis and 100% in some cases. Down payment is
+                            very low. </p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Special Benefits</b></h6>
+                        <p>Customized finance solutions to meet individual needs of the borrowers. Finance available
+                            for used vehicles.</p>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="container"><br>
+                        <h6><b>Documentation</b></h6>
+                        <p>Hassle free documentation. Loan processing is quick.</p>
+                    </div>
+                </div>
+            </div>
         </div><br>
+        <!--==================End card here==================-->
+    </div><br>
 
-
+    <div class="container">
         <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #43c6ac, #f8ffae);  padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-up">
             <h5>Commercial Vehicle Loan interest rates</h5>
 
             <ul>
@@ -199,7 +247,7 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
         <!--==============End first card for content============-->
 
         <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style=" background: linear-gradient(to right, #97cfc3, #689899); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-down">
             <h5>Who can avail a Commercial Vehicle Loan?</h5>
 
             <ul>
@@ -220,7 +268,7 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
 
         <!--==============first card for content============-->
         <h4>Commercial Vehicle Loan Eligibility </h4>
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #43c6ac, #f8ffae); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-up">
             <h5>New commercial Vehicles</h5>
 
             <ul>
@@ -239,7 +287,7 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
         <br>
         <!--==============End first card for content============-->
 
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="  background: linear-gradient(to right, #97cfc3, #689899); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card" data-aos="flip-down">
             <h5>Old Commercial Vehicles</h5>
 
             <ul>
@@ -255,7 +303,7 @@ background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
         <br>
         <!--==============End first card for content============-->
 
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #43c6ac, #f8ffae); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
             <h5>Advantages of Commercial Vehicle Loans </h5>
 
             <ul>

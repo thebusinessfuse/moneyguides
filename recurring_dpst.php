@@ -13,8 +13,10 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
+
 
 .container {
     padding: 2px 16px;
@@ -37,17 +39,18 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/recurrent.png" alt="" width="80%">
+                        <img src="img/recurrent.png" alt="" width="50%">
 
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Recurring Deposit</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Recurring
+                                Deposit</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
@@ -74,7 +77,13 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -100,16 +109,41 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
 
 
     <!--content section-->
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Recurring Deposit</b></h4>
+    </div>
+    <div style="padding:30px; background: linear-gradient(to right, #d9a7c7, #fffcdc);" data-aos="flip-right">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5><b>What is Recurring Deposit</b></h5>
+                    <ul>
+                        <li>A Recurring Deposit is similar to an SIP (Systematic Investment Plan), in a mutual fund.
+                        </li>
+                        <li>You want to invest
+                            in a fixed deposit but do not have sufficient money to do so.</li>
+                        <li> A recurring deposit is similar to a fixed
+                            deposit, only you invest small
+                            sums of money regularly which earns an interest equal to a fixed deposit.</li>
+                        <li> You will have to first open a
+                            savings bank account in your bank.</li>
+                        <li> You deposit money into this savings bank account.</li>
+                        <li> A fixed sum of money is
+                            deducted regularly (say
+                            each month), from your savings bank account and transferred to your recurring deposit.
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="img/recurrent.png" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+    </div><br>
     <div class="container">
-        <h4>Recurring Deposit</h4>
-        <p>A Recurring Deposit is similar to an SIP (Systematic Investment Plan), in a mutual fund. You want to invest
-            in a fixed deposit but do not have sufficient money to do so. A recurring deposit is similar to a fixed
-            deposit, only you invest small
-            sums of money regularly which earns an interest equal to a fixed deposit. You will have to first open a
-            savings bank account in your bank. You deposit money into this savings bank account. A fixed sum of money is
-            deducted regularly (say
-            each month), from your savings bank account and transferred to your recurring deposit. </p>
-        <br>
         <div id="card"
             style="background-color: #63d471;
             background-image: linear-gradient(315deg, #429e4d 0%, #061b3a 74%); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
@@ -159,23 +193,45 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
             </div>
             <!--==================End card plze card here==================-->
         </div><br>
-        <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Eligibility for Recurring Deposit Account</h5>
-            <p>If you are a resident of India, you can open a Recurring Deposit Account. A recurring deposit at a bank
-                can be opened with an amount as less as INR 100 a month. Some private banks require you to make a
-                recurring deposit of at least INR
-                500 a month.</p>
-            <h5>What is the tenure of your Recurring Deposit? </h5>
-            <p>The tenure of Recurring Deposit is a maximum of 10 years. It would be a good idea to invest your money in
-                a recurring which matches your financial goals. </p>
-            <h5>Interest on your Recurring Deposit </h5>
-            <p>Many recurring deposits pay an interest rate of 8.5-8.7% a year. This interest rate can go as high as
-                9-9.2% a year for a recurring deposit, if you make a deposit of 1-5 years. </p>
-            <h5></h5>
+
+
+        <div style=" background: linear-gradient(to right, #be93c5, #7bc6cc);  padding: 30px;" id="card"
+            data-aos="flip-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <img src="img/recurrent.png" alt="" width="70%">
+                    </div>
+                    <div class="col-sm-6">
+                        <h5><b>Eligibility for Recurring Deposit Account</b></h5>
+                        <ul>
+                            <li>If you are a resident of India, you can open a Recurring Deposit Account.</li>
+                            <li>A recurring deposit at a bank
+                                can be opened with an amount as less as INR 100 a month.</li>
+                            <li>Some private banks require you to make a
+                                recurring deposit of at least INR
+                                500 a month.</li>
+
+                        </ul>
+                        <h5><b>What is the tenure of your Recurring Deposit? </b></h5>
+                        <ul>
+                            <li>The tenure of Recurring Deposit is a maximum of 10 years.</li>
+                            <li>It would be a good idea to invest your money in
+                                a recurring which matches your financial goals.</li>
+                        </ul>
+                        <h5><b>Interest on your Recurring Deposit </b></h5>
+                        <ul>
+                            <li>Many recurring deposits pay an interest rate of 8.5-8.7% a year.</li>
+                            <li>This interest rate can go as high as
+                                9-9.2% a year for a recurring deposit, if you make a deposit of 1-5 years. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <br>
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="background: linear-gradient(to right, #d9a7c7, #fffcdc); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;"
+            id="card" data-aos="zoom-in">
             <h5>How to apply?</h5>
             <ul>
                 <li>You can apply for a recurring deposit account at your nearest bank branch. You have to fill the

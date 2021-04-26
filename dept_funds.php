@@ -12,8 +12,10 @@
     border-radius: 5px;
 }
 
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
 
 .container {
@@ -31,22 +33,21 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);">
         <div class="container-fluid" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-
-                        <img src="img/debt.png" alt="" width="100%">
-
+                        <img src="img/debt.png" alt="" width="70%">
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Debt Fund</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Debt
+                                Fund</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -68,7 +69,13 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);">
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -93,17 +100,40 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);">
     </section><br>
 
     <!--content section-->
-    <div class="container">
-        <h4>Debt Fund</h4>
-        <p>Debt funds are mutual funds which invest in fixed income securities such as bonds, money market instruments
-            (treasury bills, Government bonds, non-convertible debentures) or even a combination of the two. A debt fund
-            which invests in money
-            market instruments is called a liquid fund. A liquid fund ensures that the principal amounts you have
-            invested are safe. It also gives decent returns as its earnings are from interest.</p>
 
+    <div class="text-center">
+        <h4 class="spanals"><b>Debt Fund</b></h4>
+    </div>
+  
+    <div style="padding:30px;  background: linear-gradient(to right, #acb6e5, #86fde8);" data-aos="fade-up-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                <img src="img/debt.png" alt="" width="50%">
+                </div>
+                <div class="col-sm-6">
+                <h4><b>Debt Fund</b></h4>
+                    <ul>
+                        <li>Debt funds are mutual funds which invest in fixed income securities such as bonds, money
+                            market instruments
+                            (treasury bills, Government bonds, non-convertible debentures) or even a combination of
+                            the two.</li>
+                        <li> A debt fund
+                            which invests in money
+                            market instruments is called a liquid fund.</li>
+                        <li>A liquid fund ensures that the principal amounts you have
+                            invested are safe. It also gives decent returns as its earnings are from interest.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
         <div id="card"
-            style="background-color: lightgray; padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;">
-            <h5 class="text-center">Why invest in Debt Funds?</h5>
+            style="  background: linear-gradient(to right, #314755, #26a0da);  padding: 20px;" data-aos="fade-up-left">
+            <h5 class="text-center text-white"><b>Why invest in Debt Funds?</b></h5>
             <!--==================card plze card here==================-->
             <div class="row">
                 <div class="col-sm-3">
@@ -150,64 +180,106 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);">
             </div>
             <!--==================End card plze card here==================-->
         </div><br>
-
+        <div class="container">
         <h4 class="text-center">Types of Debt Funds</h4>
-        <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Fixed maturity plans</h5>
-            <ul>
-                <li>Fixed maturity plans are close ended and invest in debt which matches the term of the scheme. Fixed
-                    maturity plans have tenures ranging from 3 months to 5 years. You must invest in a fixed maturity
-                    plan which matches your financial
-                    goals.
 
-                </li>
-            </ul>
-
-        </div><br>
-        <!--==============End first card for content============-->
-        <!--==============second card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Short term fund</h5>
-            <ul>
-                <li>They invest in debt such as bonds, commercial paper and certificates of deposit with a maturity of
-                    3-6 months.
-
-                </li>
-
-            </ul>
-
-        </div><br>
         <!--==============End second card for content============-->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="card">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5>Fixed maturity plans</h5>
 
-        <!--==============thierd card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Taxation of Debt schemes
-            </h5>
-            <ul>
-                <li>Short term capitals gains (gains under 3 years), are added to your taxable salary. Taxed as per
-                    income tax slab you fall under. Long term capital gains (gains over 3 years), are taxed at 20% with
-                    indexation.</li>
-            </ul>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Fixed maturity plans are close ended and invest in debt which matches the term of the
+                                scheme. Fixed
+                                maturity plans have tenures ranging from 3 months to 5 years. You must invest in a fixed
+                                maturity
+                                plan which matches your financial
+                                goals.
 
-        </div><br>
-        <!--==============End second card for content============-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+            <div class="accordion-item" id="card">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5>Short term fund</h5>
 
-        <!--==============fourth card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Income funds
-            </h5>
-            <ul>
-                <li>Income funds invest in Government bonds, securities and even corporate debentures. They invest
-                    across a wide range of maturities. They invest in short term instruments of 1-2 years and also in
-                    long term instruments of 10-15 years.</li>
-            </ul>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>They invest in debt such as bonds, commercial paper and certificates of deposit with a
+                                maturity of
+                                3-6 months.
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+            <div class="accordion-item" id="card">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h5>Taxation of Debt schemes
+                        </h5>
+
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Short term capitals gains (gains under 3 years), are added to your taxable salary. Taxed
+                                as per
+                                income tax slab you fall under. Long term capital gains (gains over 3 years), are taxed
+                                at 20% with
+                                indexation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="accordion-item" id="card">
+                <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                        <h5>Income funds
+                        </h5>
+
+                    </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Income funds invest in Government bonds, securities and even corporate debentures. They
+                                invest
+                                across a wide range of maturities. They invest in short term instruments of 1-2 years
+                                and also in
+                                long term instruments of 10-15 years.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        <!--==============End second card for content============-->
 
-
-
+    </div>
 </main><br><br>
 <!-- End #main -->
 

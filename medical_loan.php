@@ -35,21 +35,22 @@ background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
         <div class="container" data-aos="fade-up">
             <div class="row about-cols">
 
-                <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-7 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
-                        <img src="img/medical.png" alt="" width="100%">
+                        <img src="img/medical.png" alt="" width="70%">
                     </div>
                 </div>
 
                 <div class="col-md-5 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- ======= Contact Section ======= --><br>
+                    <!-- ======= Contact Section ======= -->
                     <section id="contact" style="background-color: white; border-radius: 10px;" id="card">
-                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Medical Loan</span></h4>
+                        <h4 style="font-weight: bold;"><span style="color: black;">Get The Right Advice on<br>Medical
+                                Loan</span></h4>
 
                         <div class="container" data-aos="fade-up">
                             <div class="container">
                                 <div class="form">
-                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="form-group col-md-6">
 
@@ -71,7 +72,13 @@ background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
                                             <textarea class="form-control rounded border-secondary" rows="2"
                                                 id="comment" placeholder="Massage"></textarea>
                                         </div>
-
+                                        <div class="form-group my-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="example1">
+                                            <label class="custom-control-label" for="customCheck"><small>I have read and
+                                                    I agree to the <a href="privacy_policy.php">Privacy
+                                                        Policy</a></small> </label>
+                                        </div>
                                         <div class="my-3">
                                             <div class="loading">Loading</div>
                                             <div class="error-message"></div>
@@ -95,80 +102,123 @@ background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
     </section><br>
 
     <!--content section-->
-    <div class="container">
-        <h4>Medical Loan</h4>
-        <p>Medical emergencies arrive without warning and if you don’t have a health insurance plan or an emergency
-            fund, you’re in deep trouble. This is when you look at a medical loan. A medical loan is an unsecured loan
-            just like a personal loan.
-            It can be used for emergency hospitalization like an operation, surgery, day care procedures or a therapy.
-            With a medical loan you don’t need to liquidate FD’s break investments or sell a property.</p>
+
+    <div class="text-center">
+        <h4 class="spanals"><b>Medical Loan</b></h4>
+    </div>
+    <div style=" background: linear-gradient(to right, #dad299, #b0dab9); padding: 30px;" data-aos="flip-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul>
+                        <h4><b>Medical Loan</b></h4>
+                        <li>Medical emergencies arrive without warning and if you don’t have a health insurance plan
+                            or an emergency
+                            fund, you’re in deep trouble.</li>
+                        <li>This is when you look at a medical loan.</li>
+                        <li>A medical loan is an unsecured loan
+                            just like a personal loan.</li>
+                        <li>It can be used for emergency hospitalization like an operation, surgery, day care
+                            procedures or a therapy.</li>
+                        <li> With a medical loan you don’t need to liquidate FD’s break investments or sell a
+                            property.</li>
+                    </ul>
 
 
-
-        <!--==============first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>
-                Things to know on Medical Loan
-
-
-            </h5>
-
-            <ul>
-                <li>
-                    The loan amount is disbursed directly to the hospital when you present the surgery bill.
-
-                <li>
-                    Banks and NBFCs may approve the medical loan within 3 days.
-                </li>
-                <li>
-                    Medical loan can be a no cost EMI loan. In a medical loan, the hospital pays the lender, interest on
-                    the loan called upfront subvention fee.
-
-
-                </li>
-                <li>
-                    Interest on medical loans depends on income, the company you work for and the city of residence.
-
-
-                </li>
-                <li>
-                    Banks offer medical loans under the unsecured category of personal loans.
-
-
-                </li>
-                <li>A medical loan can be availed for emergency hospitalization ranging from Rs.15, 000 to Rs.15 lakhs.
-                    This covers most medical emergencies.
-                </li>
-                <li>A medical loan can have tenure of around 1-5 years.
-                </li>
-                <li>Banks charge interest of around 12-20% a year. The processing fees are around 1-2% of the loan
-                    amount
-                </li>
-                <li>A medical loan does not have hidden charges.
-                </li>
-                <li>A medical loan can be used for doctor’s fees, hospital bills or a surgery.
-                </li>
-
-            </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="about-col">
+                        <img src="img/medical.png" alt="" width="70%">
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
+    </div>
+
+
+    <!--==============first card for content============-->
+    <div style=" background: linear-gradient(to right,#b0dab9, #dad299); padding: 30px;" data-aos="flip-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="about-col">
+                        <img src="img/medical.png" alt="" width="70%">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h5>
+                      <b>  Things to know on Medical Loan</b>
+                    </h5>
+
+                    <ul>
+                        <li>
+                            The loan amount is disbursed directly to the hospital when you present the surgery bill.
+
+                        <li>
+                            Banks and NBFCs may approve the medical loan within 3 days.
+                        </li>
+                        <li>
+                            Medical loan can be a no cost EMI loan. In a medical loan, the hospital pays the lender,
+                            interest on
+                            the loan called upfront subvention fee.
+
+
+                        </li>
+                        <li>
+                            Interest on medical loans depends on income, the company you work for and the city of
+                            residence.
+
+
+                        </li>
+                        <li>
+                            Banks offer medical loans under the unsecured category of personal loans.
+
+
+                        </li>
+                        <li>A medical loan can be availed for emergency hospitalization ranging from Rs.15, 000 to
+                            Rs.15 lakhs.
+                            This covers most medical emergencies.
+                        </li>
+                        <li>A medical loan can have tenure of around 1-5 years.
+                        </li>
+                        <li>Banks charge interest of around 12-20% a year. The processing fees are around 1-2% of
+                            the loan
+                            amount
+                        </li>
+                        <li>A medical loan does not have hidden charges.
+                        </li>
+                        <li>A medical loan can be used for doctor’s fees, hospital bills or a surgery.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="container">
+
         <!--==============End first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Loan against property eligibility criteria</h5>
+        <div style="  background: linear-gradient(to right, #bbd2c5, #c1cdd4); padding: 30px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
+        data-aos="zoom-in" >
+            <h5><b>Eligibility criteria for a medical loan
+                </b></h5>
             <ul>
-                <li>A salaried, self-employed or even a pensioner who has taken VRS can avail a medical loan provided
+                <li>A salaried, self-employed or even a pensioner who has taken VRS can avail a medical loan
+                    provided
                     he/she is an Indian citizen.
                 </li>
                 <li>This is an unsecured loan with no need of a collateral or deposit.
                 </li>
                 <li>Salaried/Self employed must be between 21-60 years to avail a medical loan.
                 </li>
-                <li>You must have work experience of at least 2 years and must be residing in the city for at least a
+                <li>You must have work experience of at least 2 years and must be residing in the city for
+                    at least a
                     year.
                 </li>
                 <li>Banks would look for a minimum salary of Rs.20, 000 a month.
                 </li>
-                <li>Banks demand a CIBIL score of at least 650 before sanctioning the medical loan. Some NBFCs check
+                <li>Banks demand a CIBIL score of at least 650 before sanctioning the medical loan. Some
+                    NBFCs check
                     creditworthiness through a psychometric test.
                 </li>
 
@@ -178,53 +228,62 @@ background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
         </div>
         <br>
         <!--==============End first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
-            <h5>Loan against property eligibility criteria</h5>
-            <ul>
-                <li>Salaried
-                    <ul>
-                        <li>Identity proof like Passport, PAN card, Aadhar or a Driving License.
-                        </li>
-                        <li>Address proof like Passport, Voter ID or a Ration card.
-                        </li>
-                        <li>Your birth certificate.
-                        </li>
-                        <li>The last 3 months salary slips.
-                        </li>
-                        <li>Passport sized photographs.
-                        </li>
-                        <li>Form 16.
-                        </li>
-                        <li>Latest 3 months bank statements.
-                        </li>
-                        <li>Appointment letter from the company where you work.
-                        </li>
-                    </ul>
-                </li>
-            </ul>
 
-            <ul>
-                <li> Self employed
-                    <ul>
-                        <li>Proof of qualification like mark sheets and certificates.</li>
-                        <li>Self employed citizens require office address proof like electricity or a water bill/rent
-                            agreement. </li>
-                        <li>Identity proof like Passport, PAN card, Aadhar or a Driving license.</li>
-                        <li>Address proof like Passport, Voter ID or a Ration card.</li>
-                        <li>Your birth certificate.</li>
-                        <li>Latest 3 months bank statements.</li>
-                        <li>Audited Balance sheet and ITR of last 3 years.</li>
+        <div style=" background: linear-gradient(to right, #9fe0c9, #93f9b9); padding:30px;">
+            <div class="container">
+                <div class="row">
+                    <h5 class="text-center"><b>Documents required for a Medical Loan</b></h5>
+                    <div class="col-sm-6">
+                        <h5><b>Salaried</b></h5>
 
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Identity proof like Passport, PAN card, Aadhar or a Driving License.
+                            </li>
+                            <li>Address proof like Passport, Voter ID or a Ration card.
+                            </li>
+                            <li>Your birth certificate.
+                            </li>
+                            <li>The last 3 months salary slips.
+                            </li>
+                            <li>Passport sized photographs.
+                            </li>
+                            <li>Form 16.
+                            </li>
+                            <li>Latest 3 months bank statements.
+                            </li>
+                            <li>Appointment letter from the company where you work.
+                            </li>
+                        </ul>
 
 
+                    </div>
+                    <div class="col-sm-6">
+                        <h5><b>Self employed</b></h5>
+                        <ul>
+                            <li>Proof of qualification like mark sheets and certificates.</li>
+                            <li>Self employed citizens require office address proof like electricity or a water
+                                bill/rent agreement.
+                            </li>
+                            <li>Identity proof like Passport, PAN card, Aadhar or a Driving license.
+                            </li>
+                            <li>Address proof like Passport, Voter ID or a Ration card.
+                            </li>
+                            <li>Your birth certificate.
+                            </li>
+                            <li>Latest 3 months bank statements.
+                            </li>
+                            <li>Audited Balance sheet and ITR of last 3 years.
+                            </li>
 
-
-            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div><br>
+
         <!--==============End first card for content============-->
-        <div style=" padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card">
+        <div style="  background: linear-gradient(to right, #d7dbd9, #b7c1c7); padding: 20px; border: 1px solid rgb(219, 209, 209); border-radius: 10px;" id="card"
+            data-aos="fade-left">
             <h5>Benefits of Medical Loans</h5>
             <ul>
                 <li>You enjoy affordable medical treatment.
